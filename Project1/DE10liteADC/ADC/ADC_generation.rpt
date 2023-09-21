@@ -21,7 +21,6 @@ Info: ADC.modular_adc_0.st_splitter_internal.out1/adc_monitor_internal.adc_data:
 Warning: ADC.mm_bridge_0.m0/modular_adc_0.sequencer_csr: Master mm_bridge_0.m0 cannot safely write to slave modular_adc_0.sequencer_csr, because the master data width is narrower than the slave data width. Add byteenable support to the slave to support safe writes from a narrow master.
 Warning: ADC.altpll_0: altpll_0.areset_conduit must be exported, or connected to a matching conduit.
 Warning: ADC.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
-Warning: ADC.mm_bridge_0: mm_bridge_0.s0 must be connected to an Avalon-MM master
 Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
@@ -48,7 +47,6 @@ Info: ADC.modular_adc_0.st_splitter_internal.out1/adc_monitor_internal.adc_data:
 Warning: ADC.mm_bridge_0.m0/modular_adc_0.sequencer_csr: Master mm_bridge_0.m0 cannot safely write to slave modular_adc_0.sequencer_csr, because the master data width is narrower than the slave data width. Add byteenable support to the slave to support safe writes from a narrow master.
 Warning: ADC.altpll_0: altpll_0.areset_conduit must be exported, or connected to a matching conduit.
 Warning: ADC.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
-Warning: ADC.mm_bridge_0: mm_bridge_0.s0 must be connected to an Avalon-MM master
 Info: ADC: Generating ADC "ADC" for QUARTUS_SYNTH
 Info: altpll_0: "ADC" instantiated altpll "altpll_0"
 Info: master_0: "ADC" instantiated altera_jtag_avalon_master "master_0"

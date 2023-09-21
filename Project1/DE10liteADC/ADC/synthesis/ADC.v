@@ -5,6 +5,16 @@
 `timescale 1 ps / 1 ps
 module ADC (
 		input  wire        clk_clk,                              //                    clk.clk
+		output wire        mm_bridge_0_s0_waitrequest,           //         mm_bridge_0_s0.waitrequest
+		output wire [15:0] mm_bridge_0_s0_readdata,              //                       .readdata
+		output wire        mm_bridge_0_s0_readdatavalid,         //                       .readdatavalid
+		input  wire [0:0]  mm_bridge_0_s0_burstcount,            //                       .burstcount
+		input  wire [15:0] mm_bridge_0_s0_writedata,             //                       .writedata
+		input  wire [9:0]  mm_bridge_0_s0_address,               //                       .address
+		input  wire        mm_bridge_0_s0_write,                 //                       .write
+		input  wire        mm_bridge_0_s0_read,                  //                       .read
+		input  wire [1:0]  mm_bridge_0_s0_byteenable,            //                       .byteenable
+		input  wire        mm_bridge_0_s0_debugaccess,           //                       .debugaccess
 		output wire        modular_adc_0_response_valid,         // modular_adc_0_response.valid
 		output wire        modular_adc_0_response_startofpacket, //                       .startofpacket
 		output wire        modular_adc_0_response_endofpacket,   //                       .endofpacket
@@ -96,16 +106,16 @@ module ADC (
 	) mm_bridge_0 (
 		.clk              (clk_clk),                        //   clk.clk
 		.reset            (rst_controller_reset_out_reset), // reset.reset
-		.s0_waitrequest   (),                               //    s0.waitrequest
-		.s0_readdata      (),                               //      .readdata
-		.s0_readdatavalid (),                               //      .readdatavalid
-		.s0_burstcount    (),                               //      .burstcount
-		.s0_writedata     (),                               //      .writedata
-		.s0_address       (),                               //      .address
-		.s0_write         (),                               //      .write
-		.s0_read          (),                               //      .read
-		.s0_byteenable    (),                               //      .byteenable
-		.s0_debugaccess   (),                               //      .debugaccess
+		.s0_waitrequest   (mm_bridge_0_s0_waitrequest),     //    s0.waitrequest
+		.s0_readdata      (mm_bridge_0_s0_readdata),        //      .readdata
+		.s0_readdatavalid (mm_bridge_0_s0_readdatavalid),   //      .readdatavalid
+		.s0_burstcount    (mm_bridge_0_s0_burstcount),      //      .burstcount
+		.s0_writedata     (mm_bridge_0_s0_writedata),       //      .writedata
+		.s0_address       (mm_bridge_0_s0_address),         //      .address
+		.s0_write         (mm_bridge_0_s0_write),           //      .write
+		.s0_read          (mm_bridge_0_s0_read),            //      .read
+		.s0_byteenable    (mm_bridge_0_s0_byteenable),      //      .byteenable
+		.s0_debugaccess   (mm_bridge_0_s0_debugaccess),     //      .debugaccess
 		.m0_waitrequest   (mm_bridge_0_m0_waitrequest),     //    m0.waitrequest
 		.m0_readdata      (mm_bridge_0_m0_readdata),        //      .readdata
 		.m0_readdatavalid (mm_bridge_0_m0_readdatavalid),   //      .readdatavalid

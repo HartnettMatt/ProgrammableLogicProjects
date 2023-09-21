@@ -80,6 +80,11 @@
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
  <interface
+   name="mm_bridge_0_s0"
+   internal="mm_bridge_0.s0"
+   type="avalon"
+   dir="end" />
+ <interface
    name="modular_adc_0_response"
    internal="modular_adc_0.response"
    type="avalon_streaming"

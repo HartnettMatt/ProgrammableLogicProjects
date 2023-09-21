@@ -7,7 +7,17 @@ module ADC (
 	modular_adc_0_response_empty,
 	modular_adc_0_response_channel,
 	modular_adc_0_response_data,
-	reset_reset_n);	
+	reset_reset_n,
+	mm_bridge_0_s0_waitrequest,
+	mm_bridge_0_s0_readdata,
+	mm_bridge_0_s0_readdatavalid,
+	mm_bridge_0_s0_burstcount,
+	mm_bridge_0_s0_writedata,
+	mm_bridge_0_s0_address,
+	mm_bridge_0_s0_write,
+	mm_bridge_0_s0_read,
+	mm_bridge_0_s0_byteenable,
+	mm_bridge_0_s0_debugaccess);	
 
 	input		clk_clk;
 	output		modular_adc_0_response_valid;
@@ -17,4 +27,14 @@ module ADC (
 	output	[4:0]	modular_adc_0_response_channel;
 	output	[11:0]	modular_adc_0_response_data;
 	input		reset_reset_n;
+	output		mm_bridge_0_s0_waitrequest;
+	output	[15:0]	mm_bridge_0_s0_readdata;
+	output		mm_bridge_0_s0_readdatavalid;
+	input	[0:0]	mm_bridge_0_s0_burstcount;
+	input	[15:0]	mm_bridge_0_s0_writedata;
+	input	[9:0]	mm_bridge_0_s0_address;
+	input		mm_bridge_0_s0_write;
+	input		mm_bridge_0_s0_read;
+	input	[1:0]	mm_bridge_0_s0_byteenable;
+	input		mm_bridge_0_s0_debugaccess;
 endmodule
