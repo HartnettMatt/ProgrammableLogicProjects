@@ -1,0 +1,13 @@
+	component ADC is
+		port (
+			clk_clk                              : in  std_logic                     := 'X'; -- clk
+			modular_adc_0_response_valid         : out std_logic;                            -- valid
+			modular_adc_0_response_startofpacket : out std_logic;                            -- startofpacket
+			modular_adc_0_response_endofpacket   : out std_logic;                            -- endofpacket
+			modular_adc_0_response_empty         : out std_logic_vector(0 downto 0);         -- empty
+			modular_adc_0_response_channel       : out std_logic_vector(4 downto 0);         -- channel
+			modular_adc_0_response_data          : out std_logic_vector(11 downto 0);        -- data
+			reset_reset_n                        : in  std_logic                     := 'X'  -- reset_n
+		);
+	end component ADC;
+
