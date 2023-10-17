@@ -246,3 +246,51 @@ Info: Building ../Embed_System_bsp/
 X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
 [BSP build complete]
 [Embed_System build complete]
+14:46:19 **** Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]
+14:46:22 **** Incremental Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]
+14:47:54 **** Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]
+14:47:57 **** Incremental Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]
+23:07:56 **** Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]
+23:07:58 **** Incremental Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]
+21:18:55 **** Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]
+21:19:00 **** Incremental Build of configuration Nios II for project Embed_System ****
+make all 
+Info: Building ../Embed_System_bsp/
+X:/Quartus18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Embed_System_bsp/
+[BSP build complete]
+[Embed_System build complete]

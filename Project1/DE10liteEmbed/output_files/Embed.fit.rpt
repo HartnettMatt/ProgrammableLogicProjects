@@ -1,5 +1,5 @@
 Fitter report for Embed
-Fri Oct 06 17:46:03 2023
+Sat Oct 07 23:02:52 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Oct 06 17:46:03 2023       ;
+; Fitter Status                      ; Successful - Sat Oct 07 23:02:51 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Embed                                       ;
 ; Top-level Entity Name              ; DE10_LITE_Golden_Top                        ;
@@ -161,19 +161,19 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.72        ;
+; Average used               ; 1.65        ;
 ; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   6.8%      ;
-;     Processor 3            ;   6.7%      ;
-;     Processor 4            ;   6.7%      ;
-;     Processor 5            ;   6.6%      ;
-;     Processor 6            ;   6.6%      ;
-;     Processor 7            ;   6.6%      ;
-;     Processor 8            ;   6.6%      ;
-;     Processors 9-12        ;   6.4%      ;
+;     Processor 2            ;   6.1%      ;
+;     Processor 3            ;   6.0%      ;
+;     Processor 4            ;   6.0%      ;
+;     Processor 5            ;   5.9%      ;
+;     Processor 6            ;   5.9%      ;
+;     Processor 7            ;   5.9%      ;
+;     Processor 8            ;   5.9%      ;
+;     Processors 9-12        ;   5.8%      ;
 +----------------------------+-------------+
 
 
@@ -4510,13 +4510,13 @@ Info (176235): Finished register packing
     Extra Info (176220): Created 83 register duplicates
 Warning (15064): PLL "Embed:u3|Embed_altpll_0:altpll_0|Embed_altpll_0_altpll_a3g2:sd1|pll7" output port clk[1] feeds output pin "DRAM_CLK~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project1/DE10liteEmbed/Embed/synthesis/submodules/Embed_altpll_0.v Line: 150
 Warning (15058): PLL "Embed:u3|Embed_altpll_1:altpll_1|Embed_altpll_1_altpll_gr22:sd1|pll7" is in normal or source synchronous mode with output clock "compensate_clock" set to clk[0] that is not fully compensated because it feeds an output pin -- only PLLs in zero delay buffer mode can fully compensate output pins File: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project1/DE10liteEmbed/Embed/synthesis/submodules/Embed_altpll_1.v Line: 150
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:13
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:14
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:02
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:07
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:08
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 6% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 41% of the available device resources in the region that extends from location X45_Y11 to location X55_Y21
@@ -4524,14 +4524,14 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
-Info (11888): Total time spent on timing analysis during the Fitter is 1.46 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 1.72 seconds.
 Info (334003): Started post-fitting delay annotation
 Warning (334000): Timing characteristics of device 10M50DAF484C6GES are preliminary
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Warning (334000): Timing characteristics of device 10M50DAF484C6GES are preliminary
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:07
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:08
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169177): 88 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin MAX10_CLK2_50 uses I/O standard 3.3-V LVTTL at N14 File: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project1/DE10liteEmbed/DE10_LITE_Golden_Top.v Line: 41
@@ -4683,10 +4683,10 @@ Warning (169064): Following 55 pins have no output enable or a GND or VCC output
     Info (169065): Pin ARDUINO_RESET_N has a permanently disabled output enable File: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project1/DE10liteEmbed/DE10_LITE_Golden_Top.v Line: 115
 Info (144001): Generated suppressed messages file X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project1/DE10liteEmbed/output_files/Embed.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 27 warnings
-    Info: Peak virtual memory: 6451 megabytes
-    Info: Processing ended: Fri Oct 06 17:46:06 2023
-    Info: Elapsed time: 00:00:49
-    Info: Total CPU time (on all processors): 00:01:07
+    Info: Peak virtual memory: 6464 megabytes
+    Info: Processing ended: Sat Oct 07 23:02:55 2023
+    Info: Elapsed time: 00:00:58
+    Info: Total CPU time (on all processors): 00:01:05
 
 
 +----------------------------+
