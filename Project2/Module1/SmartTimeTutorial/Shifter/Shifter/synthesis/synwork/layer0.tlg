@@ -1,0 +1,9 @@
+Selecting top level module Shifter
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module1\SmartTimeTutorial\Shifter\Shifter\hdl\Shifter.v":19:7:19:13|Synthesizing module Shifter in library work.
+Running optimization stage 1 on Shifter .......
+Running optimization stage 2 on Shifter .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module1\SmartTimeTutorial\Shifter\Shifter\synthesis\synwork\layer0.rt.csv
+
