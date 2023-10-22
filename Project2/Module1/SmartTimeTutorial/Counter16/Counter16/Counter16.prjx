@@ -1,6 +1,7 @@
 KEY LIBERO "12.900"
 KEY CAPTURE "12.900.20.24"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -14,7 +15,9 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -63,7 +66,7 @@ SIZE="901"
 ENDFILE
 VALUE "<project>\synthesis\Counter16.so,so"
 STATE="utd"
-TIME="1697594405"
+TIME="1697595259"
 SIZE="294"
 ENDFILE
 VALUE "<project>\synthesis\Counter16.vm,syn_vm"
@@ -73,12 +76,12 @@ SIZE="8950"
 ENDFILE
 VALUE "<project>\synthesis\Counter16_syn.prj,prj"
 STATE="utd"
-TIME="1697594405"
+TIME="1697595260"
 SIZE="2440"
 ENDFILE
 VALUE "<project>\synthesis\Counter16_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1697594404"
+TIME="1697595259"
 SIZE="899"
 ENDFILE
 ENDLIST
@@ -180,8 +183,8 @@ NAME="Synplify Pro from Synopsys"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro from Synopsys"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM=" -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -230,9 +233,9 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Constraint Manager;Constraint Manager;0
 Reports;Reports;0
 ReportsCurrentItem;Synthesize:Counter16_compile_netlist_resources.xml
-Constraint Manager;Constraint Manager;0
 StartPage;StartPage;0
 HDL;constraint\COUNT16.sdc;0
 ACTIVEVIEW;Reports
