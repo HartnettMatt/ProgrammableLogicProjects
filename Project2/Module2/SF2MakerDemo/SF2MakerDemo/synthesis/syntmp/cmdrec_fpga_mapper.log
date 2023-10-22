@@ -2,14 +2,14 @@ D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe  -prodtype  synpli
 relcom:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part M2S010 -package VF400 -grade STD -continue_on_error -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ..\synlog\report\MakerDemo_fpga_mapper.xml -merge_inferred_clocks 0 -top_level_module MakerDemo -implementation synthesis -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -multisrs -ovm ..\MakerDemo.vm -freq 100.000 -tcl ..\..\designer\MakerDemo\synthesis.fdc ..\synwork\MakerDemo_prem.srd -sap ..\MakerDemo.sap -otap ..\MakerDemo.tap -omap ..\MakerDemo.map -devicelib D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v -ologparam MakerDemo.plg -osyn ..\MakerDemo.srm -prjdir ..\ -prjname MakerDemo_syn -log ..\synlog\MakerDemo_fpga_mapper.srr -sn 2020.03 -jobname "fpga_mapper"
 rc:1 success:1 runtime:2
 file:..\scratchproject.prs|io:o|time:1697991229|size:3939|exec:0|csum:
-file:..\MakerDemo.vm|io:o|time:1697991237|size:41542|exec:0|csum:
-file:..\..\designer\MakerDemo\synthesis.fdc|io:i|time:1697991227|size:54|exec:0|csum:AA2FB6D9B8886D04924CD704679FDD29
-file:..\synwork\MakerDemo_prem.srd|io:i|time:1697991235|size:78402|exec:0|csum:B9168B9EF7206C430AE68AE38CA83569
-file:..\MakerDemo.sap|io:o|time:1697991235|size:2155|exec:0|csum:
+file:..\MakerDemo.vm|io:o|time:1697996938|size:41542|exec:0|csum:
+file:..\..\designer\MakerDemo\synthesis.fdc|io:i|time:1697996931|size:54|exec:0|csum:1DF1FEC084205FBACEB385B948627668
+file:..\synwork\MakerDemo_prem.srd|io:i|time:1697996936|size:78401|exec:0|csum:2B71E4570ED57292AE6877CDE8513C81
+file:..\MakerDemo.sap|io:o|time:1697996937|size:2155|exec:0|csum:
 file:..\MakerDemo.tap|io:o|time:0|size:-1|exec:0|csum:
-file:..\MakerDemo.map|io:o|time:1697991237|size:28|exec:0|csum:
+file:..\MakerDemo.map|io:o|time:1697996939|size:28|exec:0|csum:
 file:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1604390290|size:16417|exec:0|csum:F0ABD26EB97073243CF73065BE40E390
-file:MakerDemo.plg|io:o|time:1697991237|size:1052|exec:0|csum:
-file:..\MakerDemo.srm|io:o|time:1697991237|size:4175|exec:0|csum:
-file:..\synlog\MakerDemo_fpga_mapper.srr|io:o|time:1697991237|size:39230|exec:0|csum:
+file:MakerDemo.plg|io:o|time:1697996939|size:1052|exec:0|csum:
+file:..\MakerDemo.srm|io:o|time:1697996938|size:4177|exec:0|csum:
+file:..\synlog\MakerDemo_fpga_mapper.srr|io:o|time:1697996939|size:39230|exec:0|csum:
 file:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\m_generic.exe|io:i|time:1604390270|size:42820608|exec:1|csum:39CFAC34BBF814CB465BAE1969F6836F

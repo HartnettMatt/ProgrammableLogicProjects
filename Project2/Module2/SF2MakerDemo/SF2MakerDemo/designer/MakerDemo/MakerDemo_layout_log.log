@@ -17,7 +17,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.900.20 
-Design: MakerDemo                       Started: Sun Oct 22 10:18:58 2023
+Design: MakerDemo                       Started: Sun Oct 22 11:49:15 2023
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,22 +33,22 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: MakerDemo                       
-Finished: Sun Oct 22 10:19:00 2023
+Finished: Sun Oct 22 11:49:17 2023
 Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
-Total Memory Usage: 110.8 Mbytes
+Total Memory Usage: 109.6 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\designer\MakerDemo\MakerDemoStarted: Sun Oct 22 10:19:02 2023
+Design: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\designer\MakerDemo\MakerDemoStarted: Sun Oct 22 11:49:19 2023
 
 
 Router completed successfully.
 
 Design: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\designer\MakerDemo\MakerDemo
-Finished: Sun Oct 22 10:19:05 2023
+Finished: Sun Oct 22 11:49:22 2023
 Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:03
-Total Memory Usage: 447.9 Mbytes
+Total Memory Usage: 446.6 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage

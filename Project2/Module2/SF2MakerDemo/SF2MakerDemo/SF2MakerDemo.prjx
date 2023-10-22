@@ -1,6 +1,7 @@
 KEY LIBERO "12.900"
 KEY CAPTURE "12.900.20.24"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -14,7 +15,9 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -185,6 +188,11 @@ TIME="1697991098"
 SIZE="256"
 PARENT="<project>\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS.cxf"
 ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1697992066"
+SIZE="1500"
+ENDFILE
 VALUE "<project>\component\work\MakerDemo\MakerDemo.cxf,actgen_cxf"
 STATE="utd"
 TIME="1697992339"
@@ -291,8 +299,8 @@ PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1697991104"
-SIZE="602"
+TIME="1697991218"
+SIZE="759"
 PARENT="<project>\component\work\MakerDemo\MakerDemo.cxf"
 PARENT="<project>\component\work\MakerDemo_sb\MakerDemo_sb.cxf"
 ENDFILE
@@ -315,7 +323,7 @@ SIZE="282"
 ENDFILE
 VALUE "<project>\synthesis\MakerDemo.vm,syn_vm"
 STATE="utd"
-TIME="1697991237"
+TIME="1697996938"
 SIZE="41542"
 ENDFILE
 VALUE "<project>\synthesis\MakerDemo_syn.prj,prj"
@@ -504,13 +512,13 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Generate Memory Map:MakerDemo_DataSheet.xml
+ReportsCurrentItem;Verify Timing:MakerDemo_min_timing_multi_corner.xml
+Timing Report Explorer;Timing Report Explorer;0
 SmartDesign;MakerDemo;0
 Constraint Manager;Constraint Manager;0
-StartPage;StartPage;0
 SmartDesign;DESIGN_FIRMWARE;0
-HDL;constraint\io\user.pdc;0
-ACTIVEVIEW;Reports
+StartPage;StartPage;0
+ACTIVEVIEW;Constraint Manager
 ENDLIST
 LIST ModuleSubBlockList
 LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v","FALSE","FALSE"

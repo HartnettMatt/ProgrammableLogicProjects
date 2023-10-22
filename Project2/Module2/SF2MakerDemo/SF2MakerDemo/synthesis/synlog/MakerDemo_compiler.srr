@@ -248,12 +248,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 98MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 22 10:13:52 2023
+# Sun Oct 22 11:48:54 2023
 
 ###########################################################]
 ###########################################################[
@@ -280,7 +280,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 22 10:13:52 2023
+# Sun Oct 22 11:48:54 2023
 
 ###########################################################]
 
@@ -290,11 +290,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 30MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 22 10:13:52 2023
+# Sun Oct 22 11:48:54 2023
 
 ###########################################################]

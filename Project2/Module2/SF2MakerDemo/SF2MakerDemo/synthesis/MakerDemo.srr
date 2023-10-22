@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: STARGATE-COMMAN
 
-# Sun Oct 22 10:13:50 2023
+# Sun Oct 22 11:48:52 2023
 
 #Implementation: synthesis
 
@@ -257,12 +257,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\synwork\layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 98MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 93MB peak: 94MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 22 10:13:52 2023
+# Sun Oct 22 11:48:54 2023
 
 ###########################################################]
 ###########################################################[
@@ -289,7 +289,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 22 10:13:52 2023
+# Sun Oct 22 11:48:54 2023
 
 ###########################################################]
 
@@ -299,12 +299,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 30MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 23MB peak: 23MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 22 10:13:52 2023
+# Sun Oct 22 11:48:54 2023
 
 ###########################################################]
 ###########################################################[
@@ -331,12 +331,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 22 10:13:53 2023
+# Sun Oct 22 11:48:55 2023
 
 ###########################################################]
 Premap Report
 
-# Sun Oct 22 10:13:54 2023
+# Sun Oct 22 11:48:55 2023
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -355,7 +355,7 @@ Implementation : synthesis
 Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
 Reading constraint file: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\designer\MakerDemo\synthesis.fdc
 @L: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\MakerDemo_scck.rpt 
@@ -364,16 +364,16 @@ See clock summary report "X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 130MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 130MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 130MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 129MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 131MB)
 
 @W: BN132 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance MakerDemo_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: MO111 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\work\makerdemo_sb\fabosc_0\makerdemo_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.MakerDemo_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.MakerDemo_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
@@ -418,7 +418,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @N: BN362 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist MakerDemo 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
 
 
 
@@ -453,7 +453,7 @@ MakerDemo_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        MakerD
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\MakerDemo.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
 original code -> new code
@@ -468,19 +468,19 @@ original code -> new code
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 84MB peak: 169MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 168MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 22 10:13:55 2023
+# Sun Oct 22 11:48:57 2023
 
 ###########################################################]
 Map & Optimize Report
 
-# Sun Oct 22 10:13:55 2023
+# Sun Oct 22 11:48:57 2023
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -514,7 +514,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 129MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 129MB)
 
 
 
@@ -552,19 +552,19 @@ Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; M
 @N: BN362 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.MakerDemo(verilog)) because it does not drive other instances.
 @N: BN362 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.sm0_state[6] (in view: work.MakerDemo(verilog)) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
 
 
 Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 167MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 167MB)
 
 @N: BN362 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.release_sdif1_core (in view: work.MakerDemo(verilog)) because it does not drive other instances.
 @A: BN291 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Boundary register MakerDemo_sb_0.CORERESETP_0.release_sdif1_core (in view: work.MakerDemo(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
@@ -619,10 +619,10 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @N: BN362 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.mss_ready_state (in view: work.MakerDemo(verilog)) because it does not drive other instances.
 @N: BN362 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance MakerDemo_sb_0.CORERESETP_0.mss_ready_select (in view: work.MakerDemo(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 167MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 167MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -633,10 +633,10 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 168MB)
 
 
 
@@ -660,7 +660,7 @@ Clock Tree ID     Driving Element                   Drive Element Type     Fanou
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 168MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 168MB)
 
 Writing Analyst data base X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\synwork\MakerDemo_m.srm
 
@@ -673,7 +673,7 @@ Writing Verilog Simulation files
 Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
 
 @W: MT246 :"x:\graduate\ecen5863\programmablelogicprojects\project2\module2\sf2makerdemo\sf2makerdemo\component\work\makerdemo_sb\ccc_0\makerdemo_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock MakerDemo_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MakerDemo_sb_0.CCC_0.GL0_net.
@@ -681,7 +681,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sun Oct 22 10:13:57 2023
+# Timing report written on Sun Oct 22 11:48:59 2023
 #
 
 
@@ -801,7 +801,7 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
 
 
 Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 169MB)
@@ -846,6 +846,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 169MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 22 10:13:57 2023
+# Sun Oct 22 11:48:59 2023
 
 ###########################################################]

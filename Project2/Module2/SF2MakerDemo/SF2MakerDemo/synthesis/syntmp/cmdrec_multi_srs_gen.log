@@ -1,7 +1,7 @@
 D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  MakerDemo  -multisrs  X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\synwork\MakerDemo_comp.srs  -osyn  X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\synwork\MakerDemo_mult.srs  -log  X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\synlog\MakerDemo_multi_srs_gen.srr 
 relcom:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top MakerDemo -multisrs ..\synwork\MakerDemo_comp.srs -osyn ..\synwork\MakerDemo_mult.srs -log ..\synlog\MakerDemo_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:..\synwork\MakerDemo_comp.srs|io:i|time:1697991232|size:60736|exec:0|csum:455F98B54AE431FBD27A5960E28325C3
-file:..\synwork\MakerDemo_mult.srs|io:o|time:1697991233|size:2261|exec:0|csum:
-file:..\synlog\MakerDemo_multi_srs_gen.srr|io:o|time:1697991233|size:1057|exec:0|csum:
+rc:0 success:1 runtime:0
+file:..\synwork\MakerDemo_comp.srs|io:i|time:1697996934|size:60742|exec:0|csum:13E993692B52622C4DBEA404A597710F
+file:..\synwork\MakerDemo_mult.srs|io:o|time:1697996935|size:2264|exec:0|csum:
+file:..\synlog\MakerDemo_multi_srs_gen.srr|io:o|time:1697996935|size:1057|exec:0|csum:
 file:D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

@@ -180,5 +180,3 @@ Implementation;Synthesis||MT420||@W:Found inferred clock MakerDemo_sb_CCC_0_FCCC
 Implementation;Synthesis||MT420||@W:Found inferred clock MakerDemo_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MakerDemo_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.||MakerDemo.srr(680);liberoaction://cross_probe/hdl/file/'<project>\synthesis\MakerDemo.srr'/linenumber/680||null;null
 Implementation;Place and Route;RootName:MakerDemo
 Implementation;Place and Route||(null)||Please refer to the log file for details about 4 Info(s)||MakerDemo_layout_log.log;liberoaction://open_report/file/MakerDemo_layout_log.log||(null);(null)
-Implementation;Generate Bitstream;RootName:MakerDemo
-Implementation;Generate Bitstream||(null)||Please refer to the log file for details||MakerDemo_generateBitstream.log;liberoaction://open_report/file/MakerDemo_generateBitstream.log||(null);(null)

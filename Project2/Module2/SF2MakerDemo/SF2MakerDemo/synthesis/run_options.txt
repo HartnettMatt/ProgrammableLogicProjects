@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03M-SP1
 #--  Project file X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module2\SF2MakerDemo\SF2MakerDemo\synthesis\run_options.txt
-#--  Written on Sun Oct 22 10:13:49 2023
+#--  Written on Sun Oct 22 11:48:52 2023
 
 
 #project files
