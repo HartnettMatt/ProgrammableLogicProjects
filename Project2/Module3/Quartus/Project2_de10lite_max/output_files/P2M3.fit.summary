@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Oct 29 19:42:46 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : P2M3
+Top-level Entity Name : NBitCounterChain
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 45,356 / 49,760 ( 91 % )
+    Total combinational functions : 45,356 / 49,760 ( 91 % )
+    Dedicated logic registers : 34,560 / 49,760 ( 69 % )
+Total registers : 34576
+Total pins : 18 / 360 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
