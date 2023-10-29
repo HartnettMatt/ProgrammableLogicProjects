@@ -1,0 +1,3 @@
+@W: CG532 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":30:3:30:9|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG532 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":30:3:30:9|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored. Simulation mismatch may occur
+

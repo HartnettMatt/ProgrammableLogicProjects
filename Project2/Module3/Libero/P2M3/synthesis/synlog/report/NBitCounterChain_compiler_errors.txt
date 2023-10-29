@@ -1,0 +1,2 @@
+@E: CG1363 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":41:63:41:63|Downward hierarchical reference 'counter.count[15]' under generate hierarchy not supported
+

@@ -1,0 +1,22 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_Prj\\Project2\\P2M3\\P2M3\\synthesis\\synwork\\NBitCounterChain_comp.srs|-top|NBitCounterChain|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Microsemi_Prj\\Project2\\P2M3\\P2M3\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"C:\\Microsemi_Prj\\Project2\\P2M3\\P2M3\\hdl\\NBitCounterChain.v":1698606859
+#CUR:"C:\\Microsemi_Prj\\Project2\\P2M3\\P2M3\\hdl\\NBitCounter.v":1698605038
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v" verilog
+1		*	"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounter.v" verilog
+#Dependency Lists(Uses List)
+0 1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 0
+#Design Unit to File Association
+module work NBitCounter 1
+module work NBitCounterChain 0

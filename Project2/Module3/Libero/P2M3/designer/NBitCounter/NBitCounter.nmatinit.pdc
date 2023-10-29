@@ -1,0 +1,73 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: NBitCounter 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Sun Oct 29 14:50:51 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io clk -DIRECTION INPUT -pinname 20 -fixed no
+set_io count\[0\] -DIRECTION OUTPUT -pinname 90 -fixed no
+set_io count\[1\] -DIRECTION OUTPUT -pinname 82 -fixed no
+set_io count\[2\] -DIRECTION OUTPUT -pinname 58 -fixed no
+set_io count\[3\] -DIRECTION OUTPUT -pinname 60 -fixed no
+set_io count\[4\] -DIRECTION OUTPUT -pinname 88 -fixed no
+set_io count\[5\] -DIRECTION OUTPUT -pinname 81 -fixed no
+set_io count\[6\] -DIRECTION OUTPUT -pinname 92 -fixed no
+set_io count\[7\] -DIRECTION OUTPUT -pinname 64 -fixed no
+set_io count\[8\] -DIRECTION OUTPUT -pinname 57 -fixed no
+set_io count\[9\] -DIRECTION OUTPUT -pinname 83 -fixed no
+set_io count\[10\] -DIRECTION OUTPUT -pinname 89 -fixed no
+set_io count\[11\] -DIRECTION OUTPUT -pinname 66 -fixed no
+set_io count\[12\] -DIRECTION OUTPUT -pinname 67 -fixed no
+set_io count\[13\] -DIRECTION OUTPUT -pinname 91 -fixed no
+set_io count\[14\] -DIRECTION OUTPUT -pinname 85 -fixed no
+set_io count\[15\] -DIRECTION OUTPUT -pinname 93 -fixed no
+set_io enable -DIRECTION INPUT -pinname 87 -fixed no
+set_io reset -DIRECTION INPUT -pinname 48 -fixed no
+set_io terminalCount -DIRECTION OUTPUT -pinname 56 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location count_Z\[14\] -fixed no 365 4
+set_location count_Z\[11\] -fixed no 362 4
+set_location count_Z\[13\] -fixed no 364 4
+set_location count_Z\[0\] -fixed no 369 4
+set_location clk_ibuf_RNIVTI2 -fixed no 219 54
+set_location count_Z\[4\] -fixed no 355 4
+set_location terminalCount_8 -fixed no 368 3
+set_location count_Z\[1\] -fixed no 352 4
+set_location count_Z\[6\] -fixed no 357 4
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location count_Z\[9\] -fixed no 360 4
+set_location count_Z\[10\] -fixed no 361 4
+set_location count_RNO\[0\] -fixed no 369 3
+set_location terminalCount_10 -fixed no 371 3
+set_location count_Z\[8\] -fixed no 359 4
+set_location count_Z\[12\] -fixed no 363 4
+set_location count_Z\[15\] -fixed no 366 4
+set_location count_Z\[3\] -fixed no 354 4
+set_location terminalCount_11 -fixed no 367 3
+set_location reset_ibuf_RNI8255 -fixed no 225 54
+set_location reset_ibuf_RNI8255/U0_RGB1 -fixed no 218 3
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 219 3
+set_location count_Z\[7\] -fixed no 358 4
+set_location terminalCount_cZ -fixed no 370 3
+set_location ip_interface_inst -fixed no 191 0
+set_location count_Z\[2\] -fixed no 353 4
+set_location terminalCount_9 -fixed no 348 3
+set_location count_Z\[5\] -fixed no 356 4
+set_location count_s_1 -fixed no 351 3
+set_location count_s_1_CC_0 -fixed no 351 5
+set_location count_s_1_CC_1 -fixed no 360 5

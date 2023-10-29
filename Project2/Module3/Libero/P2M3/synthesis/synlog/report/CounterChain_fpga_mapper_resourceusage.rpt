@@ -1,0 +1,36 @@
+Resource Usage Report for CounterChain 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG4           402 uses
+
+Carry cells:
+ARI1            1697 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            1598 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 2
+I/O primitives: 2
+INBUF          1 use
+OUTBUF         1 use
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    2100
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1598 + 0 + 0 + 0 = 1598;
+Total number of LUTs after P&R:  2100 + 0 + 0 + 0 = 2100;
+

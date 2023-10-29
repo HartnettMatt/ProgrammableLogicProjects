@@ -1,0 +1,14 @@
+Selecting top level module NBitCounterChain
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounter.v":21:7:21:17|Synthesizing module NBitCounter in library work.
+@W: CG532 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounter.v":30:3:30:9|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on NBitCounter .......
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":22:7:22:22|Synthesizing module NBitCounterChain in library work.
+@W: CG133 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":33:10:33:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on NBitCounterChain .......
+Running optimization stage 2 on NBitCounterChain .......
+Running optimization stage 2 on NBitCounter .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synwork\layer0.rt.csv
+

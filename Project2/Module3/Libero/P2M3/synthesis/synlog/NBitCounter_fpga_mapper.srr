@@ -1,0 +1,363 @@
+# Sun Oct 29 14:46:22 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: ECEN5863
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 129MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+@N: MO231 :"c:\microsemi_prj\project2\p2m3\p2m3\hdl\nbitcounter.v":34:3:34:8|Found counter in view:work.NBitCounter(verilog) instance count[15:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     7.54ns		  22 /        16
+@N: FP130 |Promoting Net clk_c on CLKINT  I_3 
+@N: FP130 |Promoting Net reset_c on CLKINT  I_4 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 16 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   16         count[0]       
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 165MB)
+
+Writing Analyst data base C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synwork\NBitCounter_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+@W: MT420 |Found inferred clock NBitCounter|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sun Oct 29 14:46:23 2023
+#
+
+
+Top view:               NBitCounter
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounter\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 7.769
+
+                    Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock      Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+NBitCounter|clk     100.0 MHz     448.2 MHz     10.000        2.231         7.769     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------
+NBitCounter|clk  NBitCounter|clk  |  10.000      7.769  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: NBitCounter|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                            Arrival          
+Instance     Reference           Type     Pin     Net            Time        Slack
+             Clock                                                                
+----------------------------------------------------------------------------------
+count[0]     NBitCounter|clk     SLE      Q       count_c[0]     0.108       7.769
+count[1]     NBitCounter|clk     SLE      Q       count_c[1]     0.108       7.785
+count[2]     NBitCounter|clk     SLE      Q       count_c[2]     0.108       7.801
+count[3]     NBitCounter|clk     SLE      Q       count_c[3]     0.108       7.818
+count[4]     NBitCounter|clk     SLE      Q       count_c[4]     0.108       7.834
+count[5]     NBitCounter|clk     SLE      Q       count_c[5]     0.108       7.850
+count[6]     NBitCounter|clk     SLE      Q       count_c[6]     0.108       7.867
+count[7]     NBitCounter|clk     SLE      Q       count_c[7]     0.108       7.883
+count[8]     NBitCounter|clk     SLE      Q       count_c[8]     0.108       7.899
+count[9]     NBitCounter|clk     SLE      Q       count_c[9]     0.108       7.916
+==================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                             Required          
+Instance      Reference           Type     Pin     Net             Time         Slack
+              Clock                                                                  
+-------------------------------------------------------------------------------------
+count[15]     NBitCounter|clk     SLE      D       count_s[15]     9.745        7.769
+count[14]     NBitCounter|clk     SLE      D       count_s[14]     9.745        7.785
+count[13]     NBitCounter|clk     SLE      D       count_s[13]     9.745        7.801
+count[12]     NBitCounter|clk     SLE      D       count_s[12]     9.745        7.818
+count[11]     NBitCounter|clk     SLE      D       count_s[11]     9.745        7.834
+count[10]     NBitCounter|clk     SLE      D       count_s[10]     9.745        7.850
+count[9]      NBitCounter|clk     SLE      D       count_s[9]      9.745        7.867
+count[8]      NBitCounter|clk     SLE      D       count_s[8]      9.745        7.883
+count[7]      NBitCounter|clk     SLE      D       count_s[7]      9.745        7.899
+count[6]      NBitCounter|clk     SLE      D       count_s[6]      9.745        7.916
+=====================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      1.976
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     7.769
+
+    Number of logic level(s):                16
+    Starting point:                          count[0] / Q
+    Ending point:                            count[15] / D
+    The start point is clocked by            NBitCounter|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            NBitCounter|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+count[0]           SLE      Q        Out     0.108     0.108 f     -         
+count_c[0]         Net      -        -       1.117     -           4         
+count_s_1          ARI1     B        In      -         1.225 f     -         
+count_s_1          ARI1     FCO      Out     0.201     1.426 f     -         
+count_s_1_FCO      Net      -        -       0.000     -           1         
+count_cry[1]       ARI1     FCI      In      -         1.426 f     -         
+count_cry[1]       ARI1     FCO      Out     0.016     1.442 f     -         
+count_cry[1]       Net      -        -       0.000     -           1         
+count_cry[2]       ARI1     FCI      In      -         1.442 f     -         
+count_cry[2]       ARI1     FCO      Out     0.016     1.459 f     -         
+count_cry[2]       Net      -        -       0.000     -           1         
+count_cry[3]       ARI1     FCI      In      -         1.459 f     -         
+count_cry[3]       ARI1     FCO      Out     0.016     1.475 f     -         
+count_cry[3]       Net      -        -       0.000     -           1         
+count_cry[4]       ARI1     FCI      In      -         1.475 f     -         
+count_cry[4]       ARI1     FCO      Out     0.016     1.491 f     -         
+count_cry[4]       Net      -        -       0.000     -           1         
+count_cry[5]       ARI1     FCI      In      -         1.491 f     -         
+count_cry[5]       ARI1     FCO      Out     0.016     1.508 f     -         
+count_cry[5]       Net      -        -       0.000     -           1         
+count_cry[6]       ARI1     FCI      In      -         1.508 f     -         
+count_cry[6]       ARI1     FCO      Out     0.016     1.524 f     -         
+count_cry[6]       Net      -        -       0.000     -           1         
+count_cry[7]       ARI1     FCI      In      -         1.524 f     -         
+count_cry[7]       ARI1     FCO      Out     0.016     1.540 f     -         
+count_cry[7]       Net      -        -       0.000     -           1         
+count_cry[8]       ARI1     FCI      In      -         1.540 f     -         
+count_cry[8]       ARI1     FCO      Out     0.016     1.556 f     -         
+count_cry[8]       Net      -        -       0.000     -           1         
+count_cry[9]       ARI1     FCI      In      -         1.556 f     -         
+count_cry[9]       ARI1     FCO      Out     0.016     1.573 f     -         
+count_cry[9]       Net      -        -       0.000     -           1         
+count_cry[10]      ARI1     FCI      In      -         1.573 f     -         
+count_cry[10]      ARI1     FCO      Out     0.016     1.589 f     -         
+count_cry[10]      Net      -        -       0.000     -           1         
+count_cry[11]      ARI1     FCI      In      -         1.589 f     -         
+count_cry[11]      ARI1     FCO      Out     0.016     1.605 f     -         
+count_cry[11]      Net      -        -       0.000     -           1         
+count_cry[12]      ARI1     FCI      In      -         1.605 f     -         
+count_cry[12]      ARI1     FCO      Out     0.016     1.622 f     -         
+count_cry[12]      Net      -        -       0.000     -           1         
+count_cry[13]      ARI1     FCI      In      -         1.622 f     -         
+count_cry[13]      ARI1     FCO      Out     0.016     1.638 f     -         
+count_cry[13]      Net      -        -       0.000     -           1         
+count_cry[14]      ARI1     FCI      In      -         1.638 f     -         
+count_cry[14]      ARI1     FCO      Out     0.016     1.654 f     -         
+count_cry[14]      Net      -        -       0.000     -           1         
+count_s[15]        ARI1     FCI      In      -         1.654 f     -         
+count_s[15]        ARI1     S        Out     0.073     1.727 r     -         
+count_s[15]        Net      -        -       0.248     -           1         
+count[15]          SLE      D        In      -         1.976 r     -         
+=============================================================================
+Total path delay (propagation time + setup) of 2.231 is 0.865(38.8%) logic and 1.366(61.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 166MB peak: 166MB)
+
+---------------------------------------
+Resource Usage Report for NBitCounter 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          2 uses
+CFG1           2 uses
+CFG4           5 uses
+
+Carry cells:
+ARI1            16 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            16 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 20
+I/O primitives: 20
+INBUF          3 uses
+OUTBUF         17 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    23
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  16 + 0 + 0 + 0 = 16;
+Total number of LUTs after P&R:  23 + 0 + 0 + 0 = 23;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 59MB peak: 166MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 29 14:46:24 2023
+
+###########################################################]

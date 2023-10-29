@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>NBitCounter</design>
+	<target_verilog>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounter.vm</target_verilog>
+</SynplifyOutput>

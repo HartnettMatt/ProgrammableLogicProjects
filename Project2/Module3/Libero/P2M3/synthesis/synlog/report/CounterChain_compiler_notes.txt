@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":22:7:22:20|Synthesizing module newNBitCounter in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":42:7:42:18|Synthesizing module CounterChain in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":22:7:22:20|Synthesizing module newNBitCounter in library work.
+

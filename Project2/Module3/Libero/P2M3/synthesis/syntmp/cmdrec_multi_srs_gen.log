@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  NBitCounterChain  -multisrs  C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synwork\NBitCounterChain_comp.srs  -osyn  C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synwork\NBitCounterChain_mult.srs  -log  C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synlog\NBitCounterChain_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top NBitCounterChain -multisrs ..\synwork\NBitCounterChain_comp.srs -osyn ..\synwork\NBitCounterChain_mult.srs -log ..\synlog\NBitCounterChain_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\NBitCounterChain_comp.srs|io:i|time:1698606863|size:7778|exec:0|csum:C02810EA98BC8628BDC1B9B893EEFF8C
+file:..\synwork\NBitCounterChain_mult.srs|io:o|time:1698606864|size:7166|exec:0|csum:
+file:..\synlog\NBitCounterChain_multi_srs_gen.srr|io:o|time:1698606864|size:1158|exec:0|csum:
+file:..\..\..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

@@ -1,0 +1,92 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_Prj/Project2/P2M3/P2M3/simulation
+vNBitCounter
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1698603947
+!i10b 1
+!s100 `AUm_WL^3Xgf:GaR`heWK3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITW86j;hOEm;=C9;EM6Dla1
+S1
+R0
+Z4 w1698603940
+Z5 8C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v
+Z6 FC:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v
+!i122 0
+L0 45 469
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2020.3;71
+r1
+!s85 0
+31
+Z9 !s108 1698603947.000000
+!s107 C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v|
+Z10 !s90 -reportprogress|300|-sv|-work|postlayout|C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v|
+!s101 -O0
+!i113 1
+Z11 o-sv -work postlayout -O0
+Z12 tCvgOpt 0
+n@n@bit@counter
+vsdf_IOPAD_IN
+R1
+R2
+!i10b 1
+!s100 [0NHb<iC3mWa^2GofhDLI0
+R3
+IKA=V_875jZYZf7N><RVX82
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 25 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v|
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+R2
+!i10b 1
+!s100 XG8gYc7=WZMP6D0_EMIfM3
+R3
+IMhf4ePZM@9on^HUmB0ZWg3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 6 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@t@r@i

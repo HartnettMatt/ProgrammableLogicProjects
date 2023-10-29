@@ -1,0 +1,619 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Sun Oct 29 14:46:23 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\c:\microsemi_prj\project2\p2m3\p2m3\hdl\nbitcounter.v "
+// file 6 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 7 "\c:\microsemi_prj\project2\p2m3\p2m3\designer\nbitcounter\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module NBitCounter (
+  clk,
+  reset,
+  enable,
+  count,
+  terminalCount
+)
+;
+
+/*  Synopsys
+.origName=NBitCounter
+.langParams="counterSize"
+counterSize=16
+ */
+input clk ;
+input reset ;
+input enable ;
+output [15:0] count ;
+output terminalCount ;
+wire clk ;
+wire reset ;
+wire enable ;
+wire terminalCount ;
+wire [15:0] count_c;
+wire [14:0] count_s;
+wire [14:1] count_cry_Z;
+wire [15:15] count_s_Z;
+wire [14:1] count_cry_Y;
+wire [15:15] count_s_FCO;
+wire [15:15] count_s_Y;
+wire GND ;
+wire VCC ;
+wire clk_c ;
+wire reset_c ;
+wire counte_c ;
+wire terminalCount_c ;
+wire terminalCount_8_Z ;
+wire terminalCount_9_Z ;
+wire terminalCount_10_Z ;
+wire terminalCount_11_Z ;
+wire count_s_1_FCO ;
+wire count_s_1_S ;
+wire count_s_1_Y ;
+wire reset_c_i ;
+wire clk_ibuf_Z ;
+wire reset_ibuf_Z ;
+  CLKINT reset_ibuf_RNI8255 (
+	.Y(reset_c),
+	.A(reset_ibuf_Z)
+);
+  CLKINT clk_ibuf_RNIVTI2 (
+	.Y(clk_c),
+	.A(clk_ibuf_Z)
+);
+  CFG1 \count_RNO[0]  (
+	.A(count_c[0]),
+	.Y(count_s[0])
+);
+defparam \count_RNO[0] .INIT=2'h1;
+  CFG1 reset_ibuf_RNI8255_0 (
+	.A(reset_c),
+	.Y(reset_c_i)
+);
+defparam reset_ibuf_RNI8255_0.INIT=2'h1;
+// @5:34
+  SLE \count_Z[0]  (
+	.Q(count_c[0]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[0]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[1]  (
+	.Q(count_c[1]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[1]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[2]  (
+	.Q(count_c[2]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[2]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[3]  (
+	.Q(count_c[3]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[3]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[4]  (
+	.Q(count_c[4]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[4]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[5]  (
+	.Q(count_c[5]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[5]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[6]  (
+	.Q(count_c[6]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[6]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[7]  (
+	.Q(count_c[7]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[7]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[8]  (
+	.Q(count_c[8]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[8]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[9]  (
+	.Q(count_c[9]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[9]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[10]  (
+	.Q(count_c[10]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[10]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[11]  (
+	.Q(count_c[11]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[11]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[12]  (
+	.Q(count_c[12]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[12]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[13]  (
+	.Q(count_c[13]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[13]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[14]  (
+	.Q(count_c[14]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s[14]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:34
+  SLE \count_Z[15]  (
+	.Q(count_c[15]),
+	.ADn(VCC),
+	.ALn(reset_c_i),
+	.CLK(clk_c),
+	.D(count_s_Z[15]),
+	.EN(counte_c),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:24
+  INBUF clk_ibuf (
+	.Y(clk_ibuf_Z),
+	.PAD(clk)
+);
+// @5:25
+  INBUF reset_ibuf (
+	.Y(reset_ibuf_Z),
+	.PAD(reset)
+);
+// @5:26
+  INBUF enable_ibuf (
+	.Y(counte_c),
+	.PAD(enable)
+);
+// @5:27
+  OUTBUF \count_obuf[0]  (
+	.PAD(count[0]),
+	.D(count_c[0])
+);
+// @5:27
+  OUTBUF \count_obuf[1]  (
+	.PAD(count[1]),
+	.D(count_c[1])
+);
+// @5:27
+  OUTBUF \count_obuf[2]  (
+	.PAD(count[2]),
+	.D(count_c[2])
+);
+// @5:27
+  OUTBUF \count_obuf[3]  (
+	.PAD(count[3]),
+	.D(count_c[3])
+);
+// @5:27
+  OUTBUF \count_obuf[4]  (
+	.PAD(count[4]),
+	.D(count_c[4])
+);
+// @5:27
+  OUTBUF \count_obuf[5]  (
+	.PAD(count[5]),
+	.D(count_c[5])
+);
+// @5:27
+  OUTBUF \count_obuf[6]  (
+	.PAD(count[6]),
+	.D(count_c[6])
+);
+// @5:27
+  OUTBUF \count_obuf[7]  (
+	.PAD(count[7]),
+	.D(count_c[7])
+);
+// @5:27
+  OUTBUF \count_obuf[8]  (
+	.PAD(count[8]),
+	.D(count_c[8])
+);
+// @5:27
+  OUTBUF \count_obuf[9]  (
+	.PAD(count[9]),
+	.D(count_c[9])
+);
+// @5:27
+  OUTBUF \count_obuf[10]  (
+	.PAD(count[10]),
+	.D(count_c[10])
+);
+// @5:27
+  OUTBUF \count_obuf[11]  (
+	.PAD(count[11]),
+	.D(count_c[11])
+);
+// @5:27
+  OUTBUF \count_obuf[12]  (
+	.PAD(count[12]),
+	.D(count_c[12])
+);
+// @5:27
+  OUTBUF \count_obuf[13]  (
+	.PAD(count[13]),
+	.D(count_c[13])
+);
+// @5:27
+  OUTBUF \count_obuf[14]  (
+	.PAD(count[14]),
+	.D(count_c[14])
+);
+// @5:27
+  OUTBUF \count_obuf[15]  (
+	.PAD(count[15]),
+	.D(count_c[15])
+);
+// @5:28
+  OUTBUF terminalCount_obuf (
+	.PAD(terminalCount),
+	.D(terminalCount_c)
+);
+// @5:34
+  ARI1 count_s_1 (
+	.FCO(count_s_1_FCO),
+	.S(count_s_1_S),
+	.Y(count_s_1_Y),
+	.B(count_c[0]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(VCC)
+);
+defparam count_s_1.INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[1]  (
+	.FCO(count_cry_Z[1]),
+	.S(count_s[1]),
+	.Y(count_cry_Y[1]),
+	.B(count_c[1]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_s_1_FCO)
+);
+defparam \count_cry[1] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[2]  (
+	.FCO(count_cry_Z[2]),
+	.S(count_s[2]),
+	.Y(count_cry_Y[2]),
+	.B(count_c[2]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[1])
+);
+defparam \count_cry[2] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[3]  (
+	.FCO(count_cry_Z[3]),
+	.S(count_s[3]),
+	.Y(count_cry_Y[3]),
+	.B(count_c[3]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[2])
+);
+defparam \count_cry[3] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[4]  (
+	.FCO(count_cry_Z[4]),
+	.S(count_s[4]),
+	.Y(count_cry_Y[4]),
+	.B(count_c[4]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[3])
+);
+defparam \count_cry[4] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[5]  (
+	.FCO(count_cry_Z[5]),
+	.S(count_s[5]),
+	.Y(count_cry_Y[5]),
+	.B(count_c[5]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[4])
+);
+defparam \count_cry[5] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[6]  (
+	.FCO(count_cry_Z[6]),
+	.S(count_s[6]),
+	.Y(count_cry_Y[6]),
+	.B(count_c[6]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[5])
+);
+defparam \count_cry[6] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[7]  (
+	.FCO(count_cry_Z[7]),
+	.S(count_s[7]),
+	.Y(count_cry_Y[7]),
+	.B(count_c[7]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[6])
+);
+defparam \count_cry[7] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[8]  (
+	.FCO(count_cry_Z[8]),
+	.S(count_s[8]),
+	.Y(count_cry_Y[8]),
+	.B(count_c[8]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[7])
+);
+defparam \count_cry[8] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[9]  (
+	.FCO(count_cry_Z[9]),
+	.S(count_s[9]),
+	.Y(count_cry_Y[9]),
+	.B(count_c[9]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[8])
+);
+defparam \count_cry[9] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[10]  (
+	.FCO(count_cry_Z[10]),
+	.S(count_s[10]),
+	.Y(count_cry_Y[10]),
+	.B(count_c[10]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[9])
+);
+defparam \count_cry[10] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[11]  (
+	.FCO(count_cry_Z[11]),
+	.S(count_s[11]),
+	.Y(count_cry_Y[11]),
+	.B(count_c[11]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[10])
+);
+defparam \count_cry[11] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[12]  (
+	.FCO(count_cry_Z[12]),
+	.S(count_s[12]),
+	.Y(count_cry_Y[12]),
+	.B(count_c[12]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[11])
+);
+defparam \count_cry[12] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[13]  (
+	.FCO(count_cry_Z[13]),
+	.S(count_s[13]),
+	.Y(count_cry_Y[13]),
+	.B(count_c[13]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[12])
+);
+defparam \count_cry[13] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_s[15]  (
+	.FCO(count_s_FCO[15]),
+	.S(count_s_Z[15]),
+	.Y(count_s_Y[15]),
+	.B(count_c[15]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[14])
+);
+defparam \count_s[15] .INIT=20'h4AA00;
+// @5:34
+  ARI1 \count_cry[14]  (
+	.FCO(count_cry_Z[14]),
+	.S(count_s[14]),
+	.Y(count_cry_Y[14]),
+	.B(count_c[14]),
+	.C(GND),
+	.D(GND),
+	.A(VCC),
+	.FCI(count_cry_Z[13])
+);
+defparam \count_cry[14] .INIT=20'h4AA00;
+// @5:41
+  CFG4 terminalCount_11 (
+	.A(count_c[15]),
+	.B(count_c[14]),
+	.C(count_c[13]),
+	.D(count_c[12]),
+	.Y(terminalCount_11_Z)
+);
+defparam terminalCount_11.INIT=16'h8000;
+// @5:41
+  CFG4 terminalCount_10 (
+	.A(count_c[11]),
+	.B(count_c[10]),
+	.C(count_c[9]),
+	.D(count_c[8]),
+	.Y(terminalCount_10_Z)
+);
+defparam terminalCount_10.INIT=16'h8000;
+// @5:41
+  CFG4 terminalCount_9 (
+	.A(count_c[7]),
+	.B(count_c[6]),
+	.C(count_c[5]),
+	.D(count_c[4]),
+	.Y(terminalCount_9_Z)
+);
+defparam terminalCount_9.INIT=16'h8000;
+// @5:41
+  CFG4 terminalCount_8 (
+	.A(count_c[3]),
+	.B(count_c[2]),
+	.C(count_c[1]),
+	.D(count_c[0]),
+	.Y(terminalCount_8_Z)
+);
+defparam terminalCount_8.INIT=16'h8000;
+// @5:41
+  CFG4 terminalCount_cZ (
+	.A(terminalCount_11_Z),
+	.B(terminalCount_10_Z),
+	.C(terminalCount_9_Z),
+	.D(terminalCount_8_Z),
+	.Y(terminalCount_c)
+);
+defparam terminalCount_cZ.INIT=16'h8000;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* NBitCounter */
+

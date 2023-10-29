@@ -1,0 +1,85 @@
+#Build: Synplify Pro (R) Q-2020.03M-SP1, Build 166R, Oct 19 2020
+#install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: ECEN5863
+
+# Sun Oct 29 14:37:23 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: ECEN5863
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: ECEN5863
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v" (library work)
+Verilog syntax check successful!
+Selecting top level module CounterChain
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":22:7:22:20|Synthesizing module newNBitCounter in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100010101111100110000010111110110010100111000001100000110010100111001001110000110000100110101001110010011010000110010011001100110010101100011011001100011000101100011011001100011100000111001011001000011011100110110001101110110001001100110001100010110001000110101001100010110001001100110
+   Generated name = syn_hyper_source_1s___xmr_tag__1_0_e80e98a5942fecf1cf89d767bf1b51bf_Z1
+Running optimization stage 1 on syn_hyper_source_1s___xmr_tag__1_0_e80e98a5942fecf1cf89d767bf1b51bf_Z1 .......
+@W: CG532 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":30:3:30:9|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on newNBitCounter_xmr0 .......
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":42:7:42:18|Synthesizing module CounterChain in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100010101111100110000010111110110010100111000001100000110010100111001001110000110000100110101001110010011010000110010011001100110010101100011011001100011000101100011011001100011100000111001011001000011011100110110001101110110001001100110001100010110001000110101001100010110001001100110
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_1s___xmr_tag__1_0_e80e98a5942fecf1cf89d767bf1b51bf_5s_1_Z2
+Running optimization stage 1 on syn_hyper_connect_1s___xmr_tag__1_0_e80e98a5942fecf1cf89d767bf1b51bf_5s_1_Z2 .......
+@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":22:7:22:20|Synthesizing module newNBitCounter in library work.
+@W: CG532 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":30:3:30:9|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on newNBitCounter_xmr1 .......
+@E: CG1363 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":61:63:61:63|Downward hierarchical reference 'counter.count[15]' under generate hierarchy not supported
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 29 14:37:24 2023
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 29 14:37:24 2023
+
+###########################################################]

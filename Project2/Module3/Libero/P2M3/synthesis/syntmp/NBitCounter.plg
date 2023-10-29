@@ -1,0 +1,11 @@
+@P:  Worst Slack : 7.769
+@P:  NBitCounter|clk - Estimated Frequency : 448.2 MHz
+@P:  NBitCounter|clk - Requested Frequency : 100.0 MHz
+@P:  NBitCounter|clk - Estimated Period : 2.231
+@P:  NBitCounter|clk - Requested Period : 10.000
+@P:  NBitCounter|clk - Slack : 7.769
+@P: NBitCounter Part : m2s010vf400std
+@P: NBitCounter Register bits  : 16 
+@P: NBitCounter DSP Blocks  : 0
+@P: NBitCounter I/O primitives : 20
+@P:  CPU Time : 0h:00m:01s

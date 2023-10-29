@@ -1,0 +1,483 @@
+# Reading pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/NBitCounter/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 C:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 14:25:47 on Oct 29,2023
+# vlog -reportprogress 300 -sv -work postlayout C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v 
+# -- Compiling module sdf_IOPAD_TRI
+# -- Compiling module sdf_IOPAD_IN
+# -- Compiling module NBitCounter
+# 
+# Top level modules:
+# 	NBitCounter
+# End time: 14:25:47 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/NBitCounter=C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.sdf" "+transport_path_delays" postlayout.NBitCounter 
+# Start time: 14:25:47 on Oct 29,2023
+# //  ModelSim Microsemi 2020.3 Jul 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading postlayout.NBitCounter
+# Loading SmartFusion2.IOINFF_BYPASS
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.IOENFF_BYPASS
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.ARI1_CC
+# Loading postlayout.sdf_IOPAD_TRI
+# Loading SmartFusion2.IOPAD_TRI_VDDI
+# Loading SmartFusion2.IOPAD_VDD
+# Loading SmartFusion2.IOOUTFF_BYPASS
+# Loading SmartFusion2.IOTRI_OB_EB
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.IOIN_IB
+# Loading SmartFusion2.CC_CONFIG
+# Loading SmartFusion2.FLASH_FREEZE
+# Loading postlayout.sdf_IOPAD_IN
+# Loading SmartFusion2.IOPAD_IN_VDDI
+# Loading SmartFusion2.IOPAD_DELAY
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.CFG1
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.IP_INTERFACE
+# Loading SmartFusion2.VCC
+# SDF 2020.3 Compiler 2020.07 Jul 13 2020
+# 
+# Loading instances from C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.sdf
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# Loading SmartFusion2.UDP_BUFF
+# Loading timing data from C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /NBitCounter File: C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v
+add wave -position end  sim:/NBitCounter/clk
+add wave -position end  sim:/NBitCounter/reset
+add wave -position end  sim:/NBitCounter/enable
+add wave -position end  sim:/NBitCounter/count
+force -freeze sim:/NBitCounter/clk 1 0, 0 {500000 fs} -r 1000000
+force -freeze sim:/NBitCounter/reset 0 0
+force -freeze sim:/NBitCounter/enable 1 0
+run
+# ** Error: $width( negedge PAD_P:500 ps, :1 ns, 990 ps );
+#    Time: 1 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:1 ns, :1500 ps, 990 ps );
+#    Time: 1500 ps  Iteration: 1  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:1500 ps, :2 ns, 990 ps );
+#    Time: 2 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:2 ns, :2500 ps, 990 ps );
+#    Time: 2500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:2500 ps, :3 ns, 990 ps );
+#    Time: 3 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:3 ns, :3500 ps, 990 ps );
+#    Time: 3500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:3500 ps, :4 ns, 990 ps );
+#    Time: 4 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:4 ns, :4500 ps, 990 ps );
+#    Time: 4500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:4500 ps, :5 ns, 990 ps );
+#    Time: 5 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:5 ns, :5500 ps, 990 ps );
+#    Time: 5500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:5500 ps, :6 ns, 990 ps );
+#    Time: 6 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:6 ns, :6500 ps, 990 ps );
+#    Time: 6500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:6500 ps, :7 ns, 990 ps );
+#    Time: 7 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:7 ns, :7500 ps, 990 ps );
+#    Time: 7500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:7500 ps, :8 ns, 990 ps );
+#    Time: 8 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:8 ns, :8500 ps, 990 ps );
+#    Time: 8500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:8500 ps, :9 ns, 990 ps );
+#    Time: 9 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:9 ns, :9500 ps, 990 ps );
+#    Time: 9500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:9500 ps, :10 ns, 990 ps );
+#    Time: 10 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:10 ns, :10500 ps, 990 ps );
+#    Time: 10500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:10500 ps, :11 ns, 990 ps );
+#    Time: 11 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:11 ns, :11500 ps, 990 ps );
+#    Time: 11500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:11500 ps, :12 ns, 990 ps );
+#    Time: 12 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:12 ns, :12500 ps, 990 ps );
+#    Time: 12500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:12500 ps, :13 ns, 990 ps );
+#    Time: 13 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:13 ns, :13500 ps, 990 ps );
+#    Time: 13500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:13500 ps, :14 ns, 990 ps );
+#    Time: 14 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:14 ns, :14500 ps, 990 ps );
+#    Time: 14500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:14500 ps, :15 ns, 990 ps );
+#    Time: 15 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:15 ns, :15500 ps, 990 ps );
+#    Time: 15500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:15500 ps, :16 ns, 990 ps );
+#    Time: 16 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:16 ns, :16500 ps, 990 ps );
+#    Time: 16500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:16500 ps, :17 ns, 990 ps );
+#    Time: 17 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:17 ns, :17500 ps, 990 ps );
+#    Time: 17500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:17500 ps, :18 ns, 990 ps );
+#    Time: 18 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:18 ns, :18500 ps, 990 ps );
+#    Time: 18500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:18500 ps, :19 ns, 990 ps );
+#    Time: 19 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:19 ns, :19500 ps, 990 ps );
+#    Time: 19500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:19500 ps, :20 ns, 990 ps );
+#    Time: 20 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:20 ns, :20500 ps, 990 ps );
+#    Time: 20500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:20500 ps, :21 ns, 990 ps );
+#    Time: 21 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:21 ns, :21500 ps, 990 ps );
+#    Time: 21500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:21500 ps, :22 ns, 990 ps );
+#    Time: 22 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:22 ns, :22500 ps, 990 ps );
+#    Time: 22500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:22500 ps, :23 ns, 990 ps );
+#    Time: 23 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:23 ns, :23500 ps, 990 ps );
+#    Time: 23500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:23500 ps, :24 ns, 990 ps );
+#    Time: 24 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:24 ns, :24500 ps, 990 ps );
+#    Time: 24500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:24500 ps, :25 ns, 990 ps );
+#    Time: 25 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:25 ns, :25500 ps, 990 ps );
+#    Time: 25500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:25500 ps, :26 ns, 990 ps );
+#    Time: 26 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:26 ns, :26500 ps, 990 ps );
+#    Time: 26500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:26500 ps, :27 ns, 990 ps );
+#    Time: 27 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:27 ns, :27500 ps, 990 ps );
+#    Time: 27500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:27500 ps, :28 ns, 990 ps );
+#    Time: 28 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:28 ns, :28500 ps, 990 ps );
+#    Time: 28500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:28500 ps, :29 ns, 990 ps );
+#    Time: 29 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:29 ns, :29500 ps, 990 ps );
+#    Time: 29500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:29500 ps, :30 ns, 990 ps );
+#    Time: 30 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:30 ns, :30500 ps, 990 ps );
+#    Time: 30500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:30500 ps, :31 ns, 990 ps );
+#    Time: 31 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:31 ns, :31500 ps, 990 ps );
+#    Time: 31500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:31500 ps, :32 ns, 990 ps );
+#    Time: 32 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:32 ns, :32500 ps, 990 ps );
+#    Time: 32500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:32500 ps, :33 ns, 990 ps );
+#    Time: 33 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:33 ns, :33500 ps, 990 ps );
+#    Time: 33500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:33500 ps, :34 ns, 990 ps );
+#    Time: 34 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:34 ns, :34500 ps, 990 ps );
+#    Time: 34500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:34500 ps, :35 ns, 990 ps );
+#    Time: 35 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:35 ns, :35500 ps, 990 ps );
+#    Time: 35500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:35500 ps, :36 ns, 990 ps );
+#    Time: 36 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:36 ns, :36500 ps, 990 ps );
+#    Time: 36500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:36500 ps, :37 ns, 990 ps );
+#    Time: 37 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:37 ns, :37500 ps, 990 ps );
+#    Time: 37500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:37500 ps, :38 ns, 990 ps );
+#    Time: 38 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:38 ns, :38500 ps, 990 ps );
+#    Time: 38500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:38500 ps, :39 ns, 990 ps );
+#    Time: 39 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:39 ns, :39500 ps, 990 ps );
+#    Time: 39500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:39500 ps, :40 ns, 990 ps );
+#    Time: 40 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:40 ns, :40500 ps, 990 ps );
+#    Time: 40500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:40500 ps, :41 ns, 990 ps );
+#    Time: 41 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:41 ns, :41500 ps, 990 ps );
+#    Time: 41500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:41500 ps, :42 ns, 990 ps );
+#    Time: 42 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:42 ns, :42500 ps, 990 ps );
+#    Time: 42500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:42500 ps, :43 ns, 990 ps );
+#    Time: 43 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:43 ns, :43500 ps, 990 ps );
+#    Time: 43500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:43500 ps, :44 ns, 990 ps );
+#    Time: 44 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:44 ns, :44500 ps, 990 ps );
+#    Time: 44500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:44500 ps, :45 ns, 990 ps );
+#    Time: 45 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:45 ns, :45500 ps, 990 ps );
+#    Time: 45500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:45500 ps, :46 ns, 990 ps );
+#    Time: 46 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:46 ns, :46500 ps, 990 ps );
+#    Time: 46500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:46500 ps, :47 ns, 990 ps );
+#    Time: 47 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:47 ns, :47500 ps, 990 ps );
+#    Time: 47500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:47500 ps, :48 ns, 990 ps );
+#    Time: 48 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:48 ns, :48500 ps, 990 ps );
+#    Time: 48500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:48500 ps, :49 ns, 990 ps );
+#    Time: 49 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:49 ns, :49500 ps, 990 ps );
+#    Time: 49500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:49500 ps, :50 ns, 990 ps );
+#    Time: 50 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:50 ns, :50500 ps, 990 ps );
+#    Time: 50500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:50500 ps, :51 ns, 990 ps );
+#    Time: 51 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:51 ns, :51500 ps, 990 ps );
+#    Time: 51500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:51500 ps, :52 ns, 990 ps );
+#    Time: 52 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:52 ns, :52500 ps, 990 ps );
+#    Time: 52500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:52500 ps, :53 ns, 990 ps );
+#    Time: 53 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:53 ns, :53500 ps, 990 ps );
+#    Time: 53500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:53500 ps, :54 ns, 990 ps );
+#    Time: 54 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:54 ns, :54500 ps, 990 ps );
+#    Time: 54500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:54500 ps, :55 ns, 990 ps );
+#    Time: 55 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:55 ns, :55500 ps, 990 ps );
+#    Time: 55500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:55500 ps, :56 ns, 990 ps );
+#    Time: 56 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:56 ns, :56500 ps, 990 ps );
+#    Time: 56500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:56500 ps, :57 ns, 990 ps );
+#    Time: 57 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:57 ns, :57500 ps, 990 ps );
+#    Time: 57500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:57500 ps, :58 ns, 990 ps );
+#    Time: 58 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:58 ns, :58500 ps, 990 ps );
+#    Time: 58500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:58500 ps, :59 ns, 990 ps );
+#    Time: 59 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:59 ns, :59500 ps, 990 ps );
+#    Time: 59500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:59500 ps, :60 ns, 990 ps );
+#    Time: 60 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:60 ns, :60500 ps, 990 ps );
+#    Time: 60500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:60500 ps, :61 ns, 990 ps );
+#    Time: 61 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:61 ns, :61500 ps, 990 ps );
+#    Time: 61500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:61500 ps, :62 ns, 990 ps );
+#    Time: 62 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:62 ns, :62500 ps, 990 ps );
+#    Time: 62500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:62500 ps, :63 ns, 990 ps );
+#    Time: 63 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:63 ns, :63500 ps, 990 ps );
+#    Time: 63500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:63500 ps, :64 ns, 990 ps );
+#    Time: 64 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:64 ns, :64500 ps, 990 ps );
+#    Time: 64500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:64500 ps, :65 ns, 990 ps );
+#    Time: 65 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:65 ns, :65500 ps, 990 ps );
+#    Time: 65500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:65500 ps, :66 ns, 990 ps );
+#    Time: 66 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:66 ns, :66500 ps, 990 ps );
+#    Time: 66500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:66500 ps, :67 ns, 990 ps );
+#    Time: 67 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:67 ns, :67500 ps, 990 ps );
+#    Time: 67500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:67500 ps, :68 ns, 990 ps );
+#    Time: 68 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:68 ns, :68500 ps, 990 ps );
+#    Time: 68500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:68500 ps, :69 ns, 990 ps );
+#    Time: 69 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:69 ns, :69500 ps, 990 ps );
+#    Time: 69500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:69500 ps, :70 ns, 990 ps );
+#    Time: 70 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:70 ns, :70500 ps, 990 ps );
+#    Time: 70500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:70500 ps, :71 ns, 990 ps );
+#    Time: 71 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:71 ns, :71500 ps, 990 ps );
+#    Time: 71500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:71500 ps, :72 ns, 990 ps );
+#    Time: 72 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:72 ns, :72500 ps, 990 ps );
+#    Time: 72500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:72500 ps, :73 ns, 990 ps );
+#    Time: 73 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:73 ns, :73500 ps, 990 ps );
+#    Time: 73500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:73500 ps, :74 ns, 990 ps );
+#    Time: 74 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:74 ns, :74500 ps, 990 ps );
+#    Time: 74500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:74500 ps, :75 ns, 990 ps );
+#    Time: 75 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:75 ns, :75500 ps, 990 ps );
+#    Time: 75500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:75500 ps, :76 ns, 990 ps );
+#    Time: 76 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:76 ns, :76500 ps, 990 ps );
+#    Time: 76500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:76500 ps, :77 ns, 990 ps );
+#    Time: 77 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:77 ns, :77500 ps, 990 ps );
+#    Time: 77500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:77500 ps, :78 ns, 990 ps );
+#    Time: 78 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:78 ns, :78500 ps, 990 ps );
+#    Time: 78500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:78500 ps, :79 ns, 990 ps );
+#    Time: 79 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:79 ns, :79500 ps, 990 ps );
+#    Time: 79500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:79500 ps, :80 ns, 990 ps );
+#    Time: 80 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:80 ns, :80500 ps, 990 ps );
+#    Time: 80500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:80500 ps, :81 ns, 990 ps );
+#    Time: 81 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:81 ns, :81500 ps, 990 ps );
+#    Time: 81500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:81500 ps, :82 ns, 990 ps );
+#    Time: 82 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:82 ns, :82500 ps, 990 ps );
+#    Time: 82500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:82500 ps, :83 ns, 990 ps );
+#    Time: 83 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:83 ns, :83500 ps, 990 ps );
+#    Time: 83500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:83500 ps, :84 ns, 990 ps );
+#    Time: 84 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:84 ns, :84500 ps, 990 ps );
+#    Time: 84500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:84500 ps, :85 ns, 990 ps );
+#    Time: 85 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:85 ns, :85500 ps, 990 ps );
+#    Time: 85500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:85500 ps, :86 ns, 990 ps );
+#    Time: 86 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:86 ns, :86500 ps, 990 ps );
+#    Time: 86500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:86500 ps, :87 ns, 990 ps );
+#    Time: 87 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:87 ns, :87500 ps, 990 ps );
+#    Time: 87500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:87500 ps, :88 ns, 990 ps );
+#    Time: 88 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:88 ns, :88500 ps, 990 ps );
+#    Time: 88500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:88500 ps, :89 ns, 990 ps );
+#    Time: 89 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:89 ns, :89500 ps, 990 ps );
+#    Time: 89500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:89500 ps, :90 ns, 990 ps );
+#    Time: 90 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:90 ns, :90500 ps, 990 ps );
+#    Time: 90500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:90500 ps, :91 ns, 990 ps );
+#    Time: 91 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:91 ns, :91500 ps, 990 ps );
+#    Time: 91500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:91500 ps, :92 ns, 990 ps );
+#    Time: 92 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:92 ns, :92500 ps, 990 ps );
+#    Time: 92500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:92500 ps, :93 ns, 990 ps );
+#    Time: 93 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:93 ns, :93500 ps, 990 ps );
+#    Time: 93500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:93500 ps, :94 ns, 990 ps );
+#    Time: 94 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:94 ns, :94500 ps, 990 ps );
+#    Time: 94500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:94500 ps, :95 ns, 990 ps );
+#    Time: 95 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:95 ns, :95500 ps, 990 ps );
+#    Time: 95500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:95500 ps, :96 ns, 990 ps );
+#    Time: 96 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:96 ns, :96500 ps, 990 ps );
+#    Time: 96500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:96500 ps, :97 ns, 990 ps );
+#    Time: 97 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:97 ns, :97500 ps, 990 ps );
+#    Time: 97500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:97500 ps, :98 ns, 990 ps );
+#    Time: 98 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:98 ns, :98500 ps, 990 ps );
+#    Time: 98500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:98500 ps, :99 ns, 990 ps );
+#    Time: 99 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+# ** Error: $width( posedge PAD_P:99 ns, :99500 ps, 990 ps );
+#    Time: 99500 ps  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2548
+# ** Error: $width( negedge PAD_P:99500 ps, :100 ns, 990 ps );
+#    Time: 100 ns  Iteration: 0  Process: /NBitCounter/\clk_ibuf/U0/U_IOPAD /U_VCCI/#Width# File: $MODEL_TECH/../../Designer/lib/modelsim/precompiled/vlog/src/smartfusion2.v Line: 2547
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading instances from C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.sdf
+# Loading timing data from C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /NBitCounter File: C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/NBitCounter_ba.v
+# End time: 14:30:06 on Oct 29,2023, Elapsed time: 0:04:19
+# Errors: 0, Warnings: 0
