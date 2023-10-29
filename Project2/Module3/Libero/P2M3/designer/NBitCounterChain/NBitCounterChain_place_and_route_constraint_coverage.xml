@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 12.900.20.24</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Sun Oct 29 14:47:00 2023 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>NBitCounterChain</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>144 TQ</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        12496</cell>
+ <cell>            0</cell>
+ <cell>        12496</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>         6256</cell>
+ <cell>         6256</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           16</cell>
+ <cell>           16</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        12496</cell>
+ <cell>         6272</cell>
+ <cell>        18768</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        12496</cell>
+ <cell>            0</cell>
+ <cell>        12496</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>         6256</cell>
+ <cell>         6256</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           16</cell>
+ <cell>           16</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        12496</cell>
+ <cell>         6272</cell>
+ <cell>        18768</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>clk</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        12496</cell>
+ <cell>            0</cell>
+ <cell>        12496</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>         6256</cell>
+ <cell>         6256</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           16</cell>
+ <cell>           16</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        12496</cell>
+ <cell>         6272</cell>
+ <cell>        18768</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        12496</cell>
+ <cell>            0</cell>
+ <cell>        12496</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>         6256</cell>
+ <cell>         6256</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           16</cell>
+ <cell>           16</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        12496</cell>
+ <cell>         6272</cell>
+ <cell>        18768</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>reset</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>reset</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>outCount[0]</item>
+ <item>outCount[10]</item>
+ <item>outCount[11]</item>
+ <item>outCount[12]</item>
+ <item>outCount[13]</item>
+ <item>outCount[14]</item>
+ <item>outCount[15]</item>
+ <item>outCount[1]</item>
+ <item>outCount[2]</item>
+ <item>outCount[3]</item>
+ <item>outCount[4]</item>
+ <item>outCount[5]</item>
+ <item>outCount[6]</item>
+ <item>outCount[7]</item>
+ <item>outCount[8]</item>
+ <item>outCount[9]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>outCount[0]</item>
+ <item>outCount[10]</item>
+ <item>outCount[11]</item>
+ <item>outCount[12]</item>
+ <item>outCount[13]</item>
+ <item>outCount[14]</item>
+ <item>outCount[15]</item>
+ <item>outCount[1]</item>
+ <item>outCount[2]</item>
+ <item>outCount[3]</item>
+ <item>outCount[4]</item>
+ <item>outCount[5]</item>
+ <item>outCount[6]</item>
+ <item>outCount[7]</item>
+ <item>outCount[8]</item>
+ <item>outCount[9]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>counter0/count[0]:ALn</item>
+ <item>counter0/count[10]:ALn</item>
+ <item>counter0/count[11]:ALn</item>
+ <item>counter0/count[12]:ALn</item>
+ <item>counter0/count[13]:ALn</item>
+ <item>counter0/count[14]:ALn</item>
+ <item>counter0/count[15]:ALn</item>
+ <item>counter0/count[1]:ALn</item>
+ <item>counter0/count[2]:ALn</item>
+ <item>counter0/count[3]:ALn</item>
+ <item>counter0/count[4]:ALn</item>
+ <item>counter0/count[5]:ALn</item>
+ <item>counter0/count[6]:ALn</item>
+ <item>counter0/count[7]:ALn</item>
+ <item>counter0/count[8]:ALn</item>
+ <item>counter0/count[9]:ALn</item>
+ <item>genCounters[100].counter/count[0]:ALn</item>
+ <item>genCounters[100].counter/count[10]:ALn</item>
+ <item>genCounters[100].counter/count[11]:ALn</item>
+ <item>genCounters[100].counter/count[12]:ALn</item>
+ <item>genCounters[100].counter/count[13]:ALn</item>
+ <item>genCounters[100].counter/count[14]:ALn</item>
+ <item>genCounters[100].counter/count[15]:ALn</item>
+ <item>genCounters[100].counter/count[1]:ALn</item>
+ <item>genCounters[100].counter/count[2]:ALn</item>
+ <item>genCounters[100].counter/count[3]:ALn</item>
+ <item>genCounters[100].counter/count[4]:ALn</item>
+ <item>genCounters[100].counter/count[5]:ALn</item>
+ <item>genCounters[100].counter/count[6]:ALn</item>
+ <item>genCounters[100].counter/count[7]:ALn</item>
+ <item>genCounters[100].counter/count[8]:ALn</item>
+ <item>genCounters[100].counter/count[9]:ALn</item>
+ <item>genCounters[101].counter/count[0]:ALn</item>
+ <item>genCounters[101].counter/count[10]:ALn</item>
+ <item>genCounters[101].counter/count[11]:ALn</item>
+ <item>genCounters[101].counter/count[12]:ALn</item>
+ <item>genCounters[101].counter/count[13]:ALn</item>
+ <item>genCounters[101].counter/count[14]:ALn</item>
+ <item>genCounters[101].counter/count[15]:ALn</item>
+ <item>genCounters[101].counter/count[1]:ALn</item>
+ <item>genCounters[101].counter/count[2]:ALn</item>
+ <item>genCounters[101].counter/count[3]:ALn</item>
+ <item>genCounters[101].counter/count[4]:ALn</item>
+ <item>genCounters[101].counter/count[5]:ALn</item>
+ <item>genCounters[101].counter/count[6]:ALn</item>
+ <item>genCounters[101].counter/count[7]:ALn</item>
+ <item>genCounters[101].counter/count[8]:ALn</item>
+ <item>genCounters[101].counter/count[9]:ALn</item>
+ <item>genCounters[102].counter/count[0]:ALn</item>
+ <item>genCounters[102].counter/count[10]:ALn</item>
+ <item>genCounters[102].counter/count[11]:ALn</item>
+ <item>genCounters[102].counter/count[12]:ALn</item>
+ <item>genCounters[102].counter/count[13]:ALn</item>
+ <item>genCounters[102].counter/count[14]:ALn</item>
+ <item>genCounters[102].counter/count[15]:ALn</item>
+ <item>genCounters[102].counter/count[1]:ALn</item>
+ <item>genCounters[102].counter/count[2]:ALn</item>
+ <item>genCounters[102].counter/count[3]:ALn</item>
+ <item>genCounters[102].counter/count[4]:ALn</item>
+ <item>genCounters[102].counter/count[5]:ALn</item>
+ <item>genCounters[102].counter/count[6]:ALn</item>
+ <item>genCounters[102].counter/count[7]:ALn</item>
+ <item>genCounters[102].counter/count[8]:ALn</item>
+ <item>genCounters[102].counter/count[9]:ALn</item>
+ <item>genCounters[103].counter/count[0]:ALn</item>
+ <item>genCounters[103].counter/count[10]:ALn</item>
+ <item>genCounters[103].counter/count[11]:ALn</item>
+ <item>genCounters[103].counter/count[12]:ALn</item>
+ <item>genCounters[103].counter/count[13]:ALn</item>
+ <item>genCounters[103].counter/count[14]:ALn</item>
+ <item>genCounters[103].counter/count[15]:ALn</item>
+ <item>genCounters[103].counter/count[1]:ALn</item>
+ <item>genCounters[103].counter/count[2]:ALn</item>
+ <item>genCounters[103].counter/count[3]:ALn</item>
+ <item>genCounters[103].counter/count[4]:ALn</item>
+ <item>genCounters[103].counter/count[5]:ALn</item>
+ <item>genCounters[103].counter/count[6]:ALn</item>
+ <item>genCounters[103].counter/count[7]:ALn</item>
+ <item>genCounters[103].counter/count[8]:ALn</item>
+ <item>genCounters[103].counter/count[9]:ALn</item>
+ <item>genCounters[104].counter/count[0]:ALn</item>
+ <item>genCounters[104].counter/count[10]:ALn</item>
+ <item>genCounters[104].counter/count[11]:ALn</item>
+ <item>genCounters[104].counter/count[12]:ALn</item>
+ <item>genCounters[104].counter/count[13]:ALn</item>
+ <item>genCounters[104].counter/count[14]:ALn</item>
+ <item>genCounters[104].counter/count[15]:ALn</item>
+ <item>genCounters[104].counter/count[1]:ALn</item>
+ <item>genCounters[104].counter/count[2]:ALn</item>
+ <item>genCounters[104].counter/count[3]:ALn</item>
+ <item>genCounters[104].counter/count[4]:ALn</item>
+ <item>genCounters[104].counter/count[5]:ALn</item>
+ <item>genCounters[104].counter/count[6]:ALn</item>
+ <item>genCounters[104].counter/count[7]:ALn</item>
+ <item>genCounters[104].counter/count[8]:ALn</item>
+ <item>genCounters[104].counter/count[9]:ALn</item>
+ <item>genCounters[105].counter/count[0]:ALn</item>
+ <item>genCounters[105].counter/count[10]:ALn</item>
+ <item>genCounters[105].counter/count[11]:ALn</item>
+ <item>genCounters[105].counter/count[12]:ALn</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>counter0/count[0]:ALn</item>
+ <item>counter0/count[10]:ALn</item>
+ <item>counter0/count[11]:ALn</item>
+ <item>counter0/count[12]:ALn</item>
+ <item>counter0/count[13]:ALn</item>
+ <item>counter0/count[14]:ALn</item>
+ <item>counter0/count[15]:ALn</item>
+ <item>counter0/count[1]:ALn</item>
+ <item>counter0/count[2]:ALn</item>
+ <item>counter0/count[3]:ALn</item>
+ <item>counter0/count[4]:ALn</item>
+ <item>counter0/count[5]:ALn</item>
+ <item>counter0/count[6]:ALn</item>
+ <item>counter0/count[7]:ALn</item>
+ <item>counter0/count[8]:ALn</item>
+ <item>counter0/count[9]:ALn</item>
+ <item>genCounters[100].counter/count[0]:ALn</item>
+ <item>genCounters[100].counter/count[10]:ALn</item>
+ <item>genCounters[100].counter/count[11]:ALn</item>
+ <item>genCounters[100].counter/count[12]:ALn</item>
+ <item>genCounters[100].counter/count[13]:ALn</item>
+ <item>genCounters[100].counter/count[14]:ALn</item>
+ <item>genCounters[100].counter/count[15]:ALn</item>
+ <item>genCounters[100].counter/count[1]:ALn</item>
+ <item>genCounters[100].counter/count[2]:ALn</item>
+ <item>genCounters[100].counter/count[3]:ALn</item>
+ <item>genCounters[100].counter/count[4]:ALn</item>
+ <item>genCounters[100].counter/count[5]:ALn</item>
+ <item>genCounters[100].counter/count[6]:ALn</item>
+ <item>genCounters[100].counter/count[7]:ALn</item>
+ <item>genCounters[100].counter/count[8]:ALn</item>
+ <item>genCounters[100].counter/count[9]:ALn</item>
+ <item>genCounters[101].counter/count[0]:ALn</item>
+ <item>genCounters[101].counter/count[10]:ALn</item>
+ <item>genCounters[101].counter/count[11]:ALn</item>
+ <item>genCounters[101].counter/count[12]:ALn</item>
+ <item>genCounters[101].counter/count[13]:ALn</item>
+ <item>genCounters[101].counter/count[14]:ALn</item>
+ <item>genCounters[101].counter/count[15]:ALn</item>
+ <item>genCounters[101].counter/count[1]:ALn</item>
+ <item>genCounters[101].counter/count[2]:ALn</item>
+ <item>genCounters[101].counter/count[3]:ALn</item>
+ <item>genCounters[101].counter/count[4]:ALn</item>
+ <item>genCounters[101].counter/count[5]:ALn</item>
+ <item>genCounters[101].counter/count[6]:ALn</item>
+ <item>genCounters[101].counter/count[7]:ALn</item>
+ <item>genCounters[101].counter/count[8]:ALn</item>
+ <item>genCounters[101].counter/count[9]:ALn</item>
+ <item>genCounters[102].counter/count[0]:ALn</item>
+ <item>genCounters[102].counter/count[10]:ALn</item>
+ <item>genCounters[102].counter/count[11]:ALn</item>
+ <item>genCounters[102].counter/count[12]:ALn</item>
+ <item>genCounters[102].counter/count[13]:ALn</item>
+ <item>genCounters[102].counter/count[14]:ALn</item>
+ <item>genCounters[102].counter/count[15]:ALn</item>
+ <item>genCounters[102].counter/count[1]:ALn</item>
+ <item>genCounters[102].counter/count[2]:ALn</item>
+ <item>genCounters[102].counter/count[3]:ALn</item>
+ <item>genCounters[102].counter/count[4]:ALn</item>
+ <item>genCounters[102].counter/count[5]:ALn</item>
+ <item>genCounters[102].counter/count[6]:ALn</item>
+ <item>genCounters[102].counter/count[7]:ALn</item>
+ <item>genCounters[102].counter/count[8]:ALn</item>
+ <item>genCounters[102].counter/count[9]:ALn</item>
+ <item>genCounters[103].counter/count[0]:ALn</item>
+ <item>genCounters[103].counter/count[10]:ALn</item>
+ <item>genCounters[103].counter/count[11]:ALn</item>
+ <item>genCounters[103].counter/count[12]:ALn</item>
+ <item>genCounters[103].counter/count[13]:ALn</item>
+ <item>genCounters[103].counter/count[14]:ALn</item>
+ <item>genCounters[103].counter/count[15]:ALn</item>
+ <item>genCounters[103].counter/count[1]:ALn</item>
+ <item>genCounters[103].counter/count[2]:ALn</item>
+ <item>genCounters[103].counter/count[3]:ALn</item>
+ <item>genCounters[103].counter/count[4]:ALn</item>
+ <item>genCounters[103].counter/count[5]:ALn</item>
+ <item>genCounters[103].counter/count[6]:ALn</item>
+ <item>genCounters[103].counter/count[7]:ALn</item>
+ <item>genCounters[103].counter/count[8]:ALn</item>
+ <item>genCounters[103].counter/count[9]:ALn</item>
+ <item>genCounters[104].counter/count[0]:ALn</item>
+ <item>genCounters[104].counter/count[10]:ALn</item>
+ <item>genCounters[104].counter/count[11]:ALn</item>
+ <item>genCounters[104].counter/count[12]:ALn</item>
+ <item>genCounters[104].counter/count[13]:ALn</item>
+ <item>genCounters[104].counter/count[14]:ALn</item>
+ <item>genCounters[104].counter/count[15]:ALn</item>
+ <item>genCounters[104].counter/count[1]:ALn</item>
+ <item>genCounters[104].counter/count[2]:ALn</item>
+ <item>genCounters[104].counter/count[3]:ALn</item>
+ <item>genCounters[104].counter/count[4]:ALn</item>
+ <item>genCounters[104].counter/count[5]:ALn</item>
+ <item>genCounters[104].counter/count[6]:ALn</item>
+ <item>genCounters[104].counter/count[7]:ALn</item>
+ <item>genCounters[104].counter/count[8]:ALn</item>
+ <item>genCounters[104].counter/count[9]:ALn</item>
+ <item>genCounters[105].counter/count[0]:ALn</item>
+ <item>genCounters[105].counter/count[10]:ALn</item>
+ <item>genCounters[105].counter/count[11]:ALn</item>
+ <item>genCounters[105].counter/count[12]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

@@ -7,7 +7,7 @@ The file contains the optimization information from mapper to be displayed as pa
 <parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
 <data>1 / 0</data>
 <report_link name="more">
-<data>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_combined_clk.rpt</data>
+<data>X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_combined_clk.rpt</data>
 <title>START OF CLOCK OPTIMIZATION REPORT</title>
 </report_link>
 </parameter>

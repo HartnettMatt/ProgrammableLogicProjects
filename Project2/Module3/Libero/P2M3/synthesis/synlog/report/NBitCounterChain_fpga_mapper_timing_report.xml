@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synlog\NBitCounterChain_fpga_mapper.srr</data>
+<data>X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\synlog\NBitCounterChain_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -15,9 +15,9 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
-<data>NBitCounterChain|clk</data>
-<data>100.0 MHz</data>
+<data>clk</data>
+<data>1.0 MHz</data>
 <data>318.4 MHz</data>
-<data>6.859</data>
+<data>996.859</data>
 </row>
 </report_table>

@@ -31,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Microsemi_Prj\Project2\P2M3\P2M3"
+KEY ProjectLocation "X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -50,102 +50,123 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\constraint\io\NBitCounter.pdc,io_pdc"
 STATE="utd"
-TIME="1698594893"
+TIME="1698607963"
 SIZE="1207"
+ENDFILE
+VALUE "<project>\constraint\NBitCounterChain_derived_constraints.sdc,sdc"
+STATE="utd"
+TIME="1698610859"
+SIZE="54"
+ENDFILE
+VALUE "<project>\constraint\user.sdc,sdc"
+STATE="utd"
+TIME="1698611227"
+SIZE="100"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\designer\NBitCounterChain\NBitCounterChain_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1698613900"
+SIZE="17048923"
+ENDFILE
+VALUE "<project>\designer\NBitCounterChain\NBitCounterChain_ba.v,ba_hdl"
+STATE="utd"
+TIME="1698613894"
+SIZE="8934277"
 ENDFILE
 VALUE "<project>\hdl\NBitCounter.v,hdl"
 STATE="utd"
-TIME="1698605038"
+TIME="1698610601"
 SIZE="1152"
 ENDFILE
 VALUE "<project>\hdl\NBitCounterChain.v,hdl"
 STATE="utd"
-TIME="1698606859"
-SIZE="2001"
+TIME="1698612382"
+SIZE="1987"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1698594834"
+TIME="1698607966"
 SIZE="650"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1698595745"
+TIME="1698607966"
 SIZE="233"
 ENDFILE
 VALUE "<project>\simulation\testbench_postlayout_simulation.log,log"
 STATE="utd"
-TIME="1698603945"
-SIZE="20"
+TIME="1698607966"
+SIZE="53717"
 ENDFILE
 VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
 STATE="utd"
-TIME="1698596198"
-SIZE="1937"
+TIME="1698607966"
+SIZE="2341"
 ENDFILE
 VALUE "<project>\synthesis\CounterChain.so,so"
 STATE="utd"
-TIME="1698598419"
+TIME="1698607966"
 SIZE="234"
 ENDFILE
 VALUE "<project>\synthesis\CounterChain.vm,syn_vm"
 STATE="ood"
-TIME="1698598419"
-SIZE="14113"
+TIME="1698607966"
+SIZE="1403934"
 ENDFILE
 VALUE "<project>\synthesis\CounterChain_syn.prj,prj"
 STATE="utd"
-TIME="1698598419"
-SIZE="2261"
+TIME="1698607966"
+SIZE="2034"
 ENDFILE
 VALUE "<project>\synthesis\CounterChain_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1698598419"
+TIME="1698607966"
 SIZE="902"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounter.so,so"
 STATE="utd"
-TIME="1698594863"
+TIME="1698607966"
 SIZE="232"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounter.vm,syn_vm"
-STATE="utd"
-TIME="1698594863"
-SIZE="9495"
+STATE="ood"
+TIME="1698607966"
+SIZE="10913"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain.so,so"
 STATE="utd"
-TIME="1698605110"
+TIME="1698607967"
 SIZE="242"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain.vm,syn_vm"
 STATE="utd"
-TIME="1698605110"
-SIZE="854019"
+TIME="1698607967"
+SIZE="2827139"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain_syn.prj,prj"
 STATE="utd"
-TIME="1698604698"
-SIZE="1071"
+TIME="1698607967"
+SIZE="2352"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1698605110"
+TIME="1698607967"
 SIZE="906"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounter_syn.prj,prj"
 STATE="utd"
-TIME="1698594863"
+TIME="1698607967"
 SIZE="2252"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounter_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1698594863"
+TIME="1698607967"
 SIZE="901"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1698599560"
+TIME="1698607970"
 SIZE="159"
 ENDFILE
 ENDLIST
@@ -154,6 +175,15 @@ ENDLIST
 LIST NewModulesInfo
 LIST "NBitCounterChain::work"
 FILE "<project>\hdl\NBitCounterChain.v,hdl"
+LIST SynthesisConstraints
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSYNTHESIS(<project>\synthesis\NBitCounterChain.vm,syn_vm)=StateSuccess
@@ -236,10 +266,10 @@ BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
-NAME="Synplify Pro"
+NAME="Synplify Pro from Synopsys"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro from Synopsys"
-LOCATION="C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
+LOCATION="D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
 PARAM=" -batch -log synplify.log"
 BATCH=1
 LICENSE=""
@@ -248,8 +278,8 @@ EndProfile
 NAME="ModelSim"
 FUNCTION="Simulation"
 TOOL="ModelSim"
-LOCATION="C:\Microsemi\Libero_SoC_v12.6\ModelSim\win32acoem\modelsim.exe"
-PARAM=" -l testbench_presynth_simulation.log "
+LOCATION="D:\Microsemi\Libero_SoC_v12.6\ModelSim\win32acoem\modelsim.exe"
+PARAM=" -l testbench_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -257,7 +287,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="C:\Microsemi\Libero_SoC_v12.6\Identify\bin\identify_debugger.exe"
+LOCATION="D:\Microsemi\Libero_SoC_v12.6\Identify\bin\identify_debugger.exe"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -292,10 +322,12 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;Place and Route:NBitCounterChain_layout_log.log
-HDL;hdl\NBitCounter.v;0
-HDL;hdl\NBitCounterChain.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+HDL;hdl\NBitCounter.v;0
+Constraint Manager;Constraint Manager;0
+HDL;hdl\NBitCounterChain.v;0
+HDL;constraint\user.sdc;0
+ACTIVEVIEW;hdl\NBitCounterChain.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "NBitCounter::work","hdl\NBitCounter.v","FALSE","FALSE"
@@ -312,6 +344,8 @@ ENDLIST
 LIST FPTabList
 ENDLIST
 LIST TimingTabList
+VALUE "constraint\NBitCounterChain_derived_constraints.sdc"
+VALUE "constraint\user.sdc"
 ENDLIST
 LIST FDCTabList
 ENDLIST

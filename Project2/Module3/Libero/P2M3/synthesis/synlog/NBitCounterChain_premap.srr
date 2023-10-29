@@ -1,4 +1,4 @@
-# Sun Oct 29 15:21:28 2023
+# Sun Oct 29 14:46:28 2023
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -8,80 +8,78 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: Q-2020.03M-SP1
-Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: ECEN5863
+Hostname: STARGATE-COMMAN
 
 Implementation : synthesis
 Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
-Reading constraint file: C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounterChain\synthesis.fdc
-@L: C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounterChain_scck.rpt 
-See clock summary report "C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounterChain_scck.rpt"
+Reading constraint file: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\designer\NBitCounterChain\synthesis.fdc
+@L: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\NBitCounterChain_scck.rpt 
+See clock summary report "X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\NBitCounterChain_scck.rpt"
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 130MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 130MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 130MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist NBitCounterChain 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 180MB peak: 180MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                    Requested     Requested     Clock        Clock                   Clock
-Level     Clock                    Frequency     Period        Type         Group                   Load 
----------------------------------------------------------------------------------------------------------
-0 -       NBitCounterChain|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     5280 
-=========================================================================================================
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       clk       1.0 MHz       1000.000      declared     default_clkgroup     6256 
+=======================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                         Clock     Source        Clock Pin                                     Non-clock Pin     Non-clock Pin
-Clock                    Load      Pin           Seq Example                                   Seq Example       Comb Example 
-------------------------------------------------------------------------------------------------------------------------------
-NBitCounterChain|clk     5280      clk(port)     genCounters\[233\]\.counter.count[15:0].C     -                 -            
-==============================================================================================================================
-
-@W: MT530 :"c:\microsemi_prj\project2\p2m3\p2m3\hdl\nbitcounter.v":34:3:34:8|Found inferred clock NBitCounterChain|clk which controls 5280 sequential elements including counter0.count[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+          Clock     Source        Clock Pin                                     Non-clock Pin     Non-clock Pin
+Clock     Load      Pin           Seq Example                                   Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------
+clk       6256      clk(port)     genCounters\[130\]\.counter.count[15:0].C     -                 -            
+===============================================================================================================
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounterChain.sap.
+@N: BN225 |Writing default property annotation file X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\NBitCounterChain.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 180MB)
-
-
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 180MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 186MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 182MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 186MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 187MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 97MB peak: 183MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 102MB peak: 189MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 29 15:21:28 2023
+# Sun Oct 29 14:46:29 2023
 
 ###########################################################]

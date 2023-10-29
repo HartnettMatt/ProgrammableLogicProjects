@@ -21,7 +21,7 @@
 
 module NBitCounterChain #(
    parameter counterSize   = 16,
-   parameter numOfCounters = 330
+   parameter numOfCounters = 391
 ) (
    input  wire                   clk,
    input  wire                   reset,
@@ -30,7 +30,6 @@ module NBitCounterChain #(
    wire [counterSize-1:0] counts[numOfCounters];
    wire terminalCounts[numOfCounters];
 
-   genvar i;
    generate
       NBitCounter counter0 (
                      .clk(clk),

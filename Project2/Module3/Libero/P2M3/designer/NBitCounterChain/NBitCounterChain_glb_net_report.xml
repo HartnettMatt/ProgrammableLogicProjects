@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Sun Oct 29 15:21:51 2023
+<text>Date: Sun Oct 29 14:47:46 2023
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -19,15 +19,15 @@
  <cell>1</cell>
  <cell>GB[1] </cell>
  <cell>(219, 54)</cell>
- <cell>clk_ibuf_RNIVTI2/U0_YNn</cell>
- <cell>5280</cell>
+ <cell>reset_ibuf_RNI8255/U0_YNn</cell>
+ <cell>6256</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[7] </cell>
  <cell>(225, 54)</cell>
- <cell>reset_ibuf_RNI8255/U0_YNn</cell>
- <cell>5280</cell>
+ <cell>clk_keep_RNIUPR4/U0_YNn</cell>
+ <cell>6256</cell>
 </row>
 </table>
 <text></text>
@@ -49,25 +49,25 @@
 </header>
 <row>
  <cell>1</cell>
- <cell>clk</cell>
+ <cell>reset</cell>
  <cell>20</cell>
  <cell>MSIO79PB7/GB1</cell>
- <cell>clk_ibuf/U0/U_IOPAD:Y</cell>
+ <cell>reset_ibuf/U0/U_IOPAD:Y</cell>
  <cell>(0, 64)</cell>
  <cell>GB[1] </cell>
- <cell>clk_ibuf_Z</cell>
+ <cell>reset_ibuf_Z</cell>
  <cell>HARDWIRED</cell>
  <cell>2</cell>
 </row>
 <row>
  <cell>2</cell>
- <cell>reset</cell>
+ <cell>clk</cell>
  <cell>48</cell>
  <cell>MSIO104NB4/GB7</cell>
- <cell>reset_ibuf/U0/U_IOPAD:Y</cell>
+ <cell>clk_ibuf/U0/U_IOPAD:Y</cell>
  <cell>(261, 1)</cell>
  <cell>GB[7] </cell>
- <cell>reset_ibuf_Z</cell>
+ <cell>clk_1</cell>
  <cell>HARDWIRED</cell>
  <cell>2</cell>
 </row>
@@ -107,11 +107,11 @@
  <cell>1</cell>
  <cell>GB[1] </cell>
  <cell>(219, 54)</cell>
- <cell>clk_ibuf_RNIVTI2/U0_YNn</cell>
- <cell>5280</cell>
+ <cell>reset_ibuf_RNI8255/U0_YNn</cell>
+ <cell>6256</cell>
  <cell>1</cell>
  <cell>(218, 57)</cell>
- <cell>160</cell>
+ <cell>255</cell>
 </row>
 <row>
  <cell> </cell>
@@ -121,7 +121,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(218, 60)</cell>
- <cell>112</cell>
+ <cell>242</cell>
 </row>
 <row>
  <cell> </cell>
@@ -131,7 +131,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(218, 63)</cell>
- <cell>224</cell>
+ <cell>240</cell>
 </row>
 <row>
  <cell> </cell>
@@ -151,7 +151,7 @@
  <cell></cell>
  <cell>5</cell>
  <cell>(218, 72)</cell>
- <cell>240</cell>
+ <cell>241</cell>
 </row>
 <row>
  <cell> </cell>
@@ -161,7 +161,7 @@
  <cell></cell>
  <cell>6</cell>
  <cell>(218, 75)</cell>
- <cell>240</cell>
+ <cell>239</cell>
 </row>
 <row>
  <cell> </cell>
@@ -181,7 +181,7 @@
  <cell></cell>
  <cell>8</cell>
  <cell>(218, 84)</cell>
- <cell>240</cell>
+ <cell>241</cell>
 </row>
 <row>
  <cell> </cell>
@@ -201,7 +201,7 @@
  <cell></cell>
  <cell>10</cell>
  <cell>(218, 93)</cell>
- <cell>240</cell>
+ <cell>241</cell>
 </row>
 <row>
  <cell> </cell>
@@ -211,7 +211,7 @@
  <cell></cell>
  <cell>11</cell>
  <cell>(218, 96)</cell>
- <cell>240</cell>
+ <cell>242</cell>
 </row>
 <row>
  <cell> </cell>
@@ -221,17 +221,17 @@
  <cell></cell>
  <cell>12</cell>
  <cell>(218, 99)</cell>
- <cell>240</cell>
+ <cell>236</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[7] </cell>
  <cell>(225, 54)</cell>
- <cell>reset_ibuf_RNI8255/U0_YNn</cell>
- <cell>5280</cell>
+ <cell>clk_keep_RNIUPR4/U0_YNn</cell>
+ <cell>6256</cell>
  <cell>1</cell>
  <cell>(219, 57)</cell>
- <cell>160</cell>
+ <cell>255</cell>
 </row>
 <row>
  <cell> </cell>
@@ -241,7 +241,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(219, 60)</cell>
- <cell>112</cell>
+ <cell>242</cell>
 </row>
 <row>
  <cell> </cell>
@@ -251,7 +251,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(219, 63)</cell>
- <cell>224</cell>
+ <cell>240</cell>
 </row>
 <row>
  <cell> </cell>
@@ -271,7 +271,7 @@
  <cell></cell>
  <cell>5</cell>
  <cell>(219, 72)</cell>
- <cell>240</cell>
+ <cell>241</cell>
 </row>
 <row>
  <cell> </cell>
@@ -281,7 +281,7 @@
  <cell></cell>
  <cell>6</cell>
  <cell>(219, 75)</cell>
- <cell>240</cell>
+ <cell>239</cell>
 </row>
 <row>
  <cell> </cell>
@@ -301,7 +301,7 @@
  <cell></cell>
  <cell>8</cell>
  <cell>(219, 84)</cell>
- <cell>240</cell>
+ <cell>241</cell>
 </row>
 <row>
  <cell> </cell>
@@ -321,7 +321,7 @@
  <cell></cell>
  <cell>10</cell>
  <cell>(219, 93)</cell>
- <cell>240</cell>
+ <cell>241</cell>
 </row>
 <row>
  <cell> </cell>
@@ -331,7 +331,7 @@
  <cell></cell>
  <cell>11</cell>
  <cell>(219, 96)</cell>
- <cell>240</cell>
+ <cell>242</cell>
 </row>
 <row>
  <cell> </cell>
@@ -341,7 +341,7 @@
  <cell></cell>
  <cell>12</cell>
  <cell>(219, 99)</cell>
- <cell>240</cell>
+ <cell>236</cell>
 </row>
 </table>
 <text></text>

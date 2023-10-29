@@ -1,1 +1,0 @@
-@W: MT530 :"c:\microsemi_prj\project2\p2m3\p2m3\hdl\nbitcounter.v":34:3:34:8|Found inferred clock NBitCounterChain|clk which controls 5280 sequential elements including counter0.count[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 

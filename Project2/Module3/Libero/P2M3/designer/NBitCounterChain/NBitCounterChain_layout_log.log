@@ -1,12 +1,16 @@
-Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: Reading User SDC file X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\constraint\user.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
 INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
 ***** Place and Route Configurations *****
-Timing-driven            : OFF
+Timing-driven            : ON
 Power-driven             : OFF
-I/O Register Combining   : OFF
+I/O Register Combining   : ON
 High-effort              : OFF
-Repair min-delay         : OFF
+Repair min-delay         : ON
 Incremental              : OFF
+Inter-clock optimization : ON
 
 INFO: No User PDC file(s) was specified.
 
@@ -17,48 +21,51 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 12.900.20 
-Design: NBitCounterChain                Started: Sun Oct 29 15:21:43 2023
+Design: NBitCounterChain                Started: Sun Oct 29 14:47:03 2023
 
-Initializing Normal-Effort Standard Placement ...
+Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
 Placing ...
 Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 0 seconds
-Placement                : 0 seconds
-Improvement              : 4 seconds
+Clustering (1 pass)      : 1 seconds
+Placement                : 3 seconds
+Improvement              : 22 seconds
 
 Placer completed successfully.
 
 Design: NBitCounterChain                
-Finished: Sun Oct 29 15:21:50 2023
-Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:07
-Total Memory Usage: 159.3 Mbytes
+Finished: Sun Oct 29 14:47:45 2023
+Total CPU Time:     00:00:40            Total Elapsed Time: 00:00:42
+Total Memory Usage: 426.4 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounterChain\NBitCounterChainStarted: Sun Oct 29 15:21:52 2023
+Design: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\designer\NBitCounterChain\NBitCounterChainStarted: Sun Oct 29 14:47:49 2023
 
 
 Router completed successfully.
 
-Design: C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounterChain\NBitCounterChain
-Finished: Sun Oct 29 15:21:56 2023
-Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:04
-Total Memory Usage: 445.9 Mbytes
+Design: X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\designer\NBitCounterChain\NBitCounterChain
+Finished: Sun Oct 29 14:48:01 2023
+Total CPU Time:     00:00:11            Total Elapsed Time: 00:00:12
+Total Memory Usage: 446.6 Mbytes
                         o - o - o - o - o - o
 
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 7255 | 12084 | 60.04      |
-| DFF           | 5280 | 12084 | 43.69      |
+| 4LUT          | 8597 | 12084 | 71.14      |
+| DFF           | 6256 | 12084 | 51.77      |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 7255 | 12084 | 60.04      |
+| Logic Element | 8616 | 12084 | 71.30      |
 +---------------+------+-------+------------+
 
 I/O Placement

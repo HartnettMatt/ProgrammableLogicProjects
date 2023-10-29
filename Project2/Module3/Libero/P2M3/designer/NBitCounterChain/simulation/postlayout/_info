@@ -1,0 +1,92 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/simulation
+vNBitCounterChain
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1698613956
+!i10b 1
+!s100 nC[YPoFBn[_e6R9AfLczI1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOBWYbQ;DVDiGef35z9h021
+S1
+R0
+Z3 w1698613894
+Z4 8X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/NBitCounterChain_ba.v
+Z5 FX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/NBitCounterChain_ba.v
+!i122 0
+L0 45 159306
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OW;L;2020.3;71
+r1
+!s85 0
+31
+Z8 !s108 1698613955.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/NBitCounterChain_ba.v|
+Z9 !s90 -reportprogress|300|-sv|-work|postlayout|X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/NBitCounterChain_ba.v|
+!s101 -O0
+!i113 1
+Z10 o-sv -work postlayout -O0
+Z11 tCvgOpt 0
+n@n@bit@counter@chain
+vsdf_IOPAD_IN
+R1
+Z12 !s110 1698613955
+!i10b 1
+!s100 [0NHb<iC3mWa^2GofhDLI0
+R2
+IS7P7`?]Wg[9JHUX_o_jn>0
+S1
+R0
+R3
+R4
+R5
+!i122 0
+L0 25 18
+R6
+R7
+r1
+!s85 0
+31
+R8
+Z13 !s107 X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/NBitCounterChain_ba.v|
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+R12
+!i10b 1
+!s100 XG8gYc7=WZMP6D0_EMIfM3
+R2
+IaO4jmIfjC8=_EK:kBCVZK1
+S1
+R0
+R3
+R4
+R5
+!i122 0
+L0 6 17
+R6
+R7
+r1
+!s85 0
+31
+R8
+R13
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+nsdf_@i@o@p@a@d_@t@r@i

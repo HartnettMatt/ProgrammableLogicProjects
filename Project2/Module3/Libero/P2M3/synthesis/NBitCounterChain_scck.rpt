@@ -6,17 +6,17 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: Q-2020.03M-SP1
-Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Install: D:\Microsemi\Libero_SoC_v12.6\SynplifyPro
 OS: Windows 6.2
 
-Hostname: ECEN5863
+Hostname: STARGATE-COMMAN
 
 Implementation : synthesis
 
-# Written on Sun Oct 29 15:21:28 2023
+# Written on Sun Oct 29 14:46:28 2023
 
 ##### FILES SYNTAX CHECKED ##############################################
-Constraint File(s):      "C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounterChain\synthesis.fdc"
+Constraint File(s):      "X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\designer\NBitCounterChain\synthesis.fdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################
@@ -30,18 +30,18 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-          Start                    Requested     Requested     Clock        Clock                   Clock
-Level     Clock                    Frequency     Period        Type         Group                   Load 
----------------------------------------------------------------------------------------------------------
-0 -       NBitCounterChain|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     5280 
-=========================================================================================================
+          Start     Requested     Requested     Clock        Clock                Clock
+Level     Clock     Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------
+0 -       clk       1.0 MHz       1000.000      declared     default_clkgroup     6256 
+=======================================================================================
 
 
 Clock Load Summary
 ******************
 
-                         Clock     Source        Clock Pin                                     Non-clock Pin     Non-clock Pin
-Clock                    Load      Pin           Seq Example                                   Seq Example       Comb Example 
-------------------------------------------------------------------------------------------------------------------------------
-NBitCounterChain|clk     5280      clk(port)     genCounters\[233\]\.counter.count[15:0].C     -                 -            
-==============================================================================================================================
+          Clock     Source        Clock Pin                                     Non-clock Pin     Non-clock Pin
+Clock     Load      Pin           Seq Example                                   Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------
+clk       6256      clk(port)     genCounters\[130\]\.counter.count[15:0].C     -                 -            
+===============================================================================================================

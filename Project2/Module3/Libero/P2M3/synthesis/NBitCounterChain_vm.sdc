@@ -1,8 +1,8 @@
-# Written by Synplify Pro version map202003act, Build 160R. Synopsys Run ID: sid1698607288 
+# Written by Synplify Pro version map202003act, Build 160R. Synopsys Run ID: sid1698612390 
 # Top Level Design Parameters 
 
 # Clocks 
-create_clock -period 10.000 -waveform {0.000 5.000} -name {NBitCounterChain|clk} [get_ports {clk}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {clk} [get_pins {clk_ibuf/Y}] 
 
 # Virtual Clocks 
 

@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synlog\NBitCounterChain_fpga_mapper.srr</data>
+<data>X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\synlog\NBitCounterChain_fpga_mapper.srr</data>
 <title></title>
 </report_link>
 <job_status>
@@ -13,34 +13,34 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>339</data>
+<data>401</data>
 <report_link name="more">
-<data>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_notes.txt</data>
+<data>X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>1</data>
+<data>0</data>
 <report_link name="more">
-<data>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_warnings.txt</data>
+<data>X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_errors.txt</data>
+<data>X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\synlog\report\NBitCounterChain_fpga_mapper_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:08s</data>
+<data>0h:00m:13s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:06s</data>
+<data>0h:00m:13s</data>
 </info>
 <info name="Peak Memory">
-<data>215MB</data>
+<data>226MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1698607295</data>
+<data type="timestamp">1698612403</data>
 </info>
 </job_info>
 </job_run_status>

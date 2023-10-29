@@ -3,15 +3,15 @@ Resource Usage Report for NBitCounterChain
 Mapping to part: m2s010vf400std
 Cell usage:
 CLKINT          2 uses
-CFG1           331 uses
-CFG4           1645 uses
+CFG1           392 uses
+CFG4           1950 uses
 
 Carry cells:
-ARI1            5280 uses - used for arithmetic functions
+ARI1            6256 uses - used for arithmetic functions
 
 
 Sequential Cells: 
-SLE            5280 uses
+SLE            6256 uses
 
 DSP Blocks:    0 of 22 (0%)
 
@@ -23,7 +23,7 @@ OUTBUF         16 uses
 
 Global Clock Buffers: 2
 
-Total LUTs:    7256
+Total LUTs:    8598
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -31,6 +31,6 @@ RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  5280 + 0 + 0 + 0 = 5280;
-Total number of LUTs after P&R:  7256 + 0 + 0 + 0 = 7256;
+Total number of SLEs after P&R:  6256 + 0 + 0 + 0 = 6256;
+Total number of LUTs after P&R:  8598 + 0 + 0 + 0 = 8598;
 

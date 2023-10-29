@@ -1,15 +1,15 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03M-SP1
-#--  Project file C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\scratchproject.prs
+#--  Project file X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\scratchproject.prs
 
 #project files
-add_file -include "C:/Microsemi_Prj/Project2/P2M3/P2M3/hdl/NBitCounter.v"
-add_file -verilog "C:/Microsemi_Prj/Project2/P2M3/P2M3/hdl/NBitCounterChain.v"
-add_file -fpga_constraint "C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounterChain/synthesis.fdc"
+add_file -include "X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/hdl/NBitCounter.v"
+add_file -verilog "X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/hdl/NBitCounterChain.v"
+add_file -fpga_constraint "X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/synthesis.fdc"
 
 
 #implementation: "synthesis"
-impl -add C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis -type fpga
+impl -add X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis -type fpga
 
 #
 #implementation attributes
@@ -83,5 +83,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Microsemi_Prj/Project2/P2M3/P2M3/synthesis/NBitCounterChain.vm"
+project -result_file "X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/synthesis/NBitCounterChain.vm"
 impl -active "synthesis"

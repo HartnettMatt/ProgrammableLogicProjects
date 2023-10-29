@@ -82,7 +82,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounterChain.vm"}
+    -value {"X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\NBitCounterChain.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -96,7 +96,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounterChain} \
+    -desdir {X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\designer\NBitCounterChain} \
     -design NBitCounterChain \
     -fam SmartFusion2 \
     -die PA4M1000_N \

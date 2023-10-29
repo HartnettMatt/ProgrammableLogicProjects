@@ -1,6 +1,6 @@
 DESIGN=NBitCounterChain
-DESDIR=C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounterChain
-TARGET_DIR=C:\Microsemi_Prj\Project2\P2M3\P2M3\designer\NBitCounterChain
+DESDIR=X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\designer\NBitCounterChain
+TARGET_DIR=X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\designer\NBitCounterChain
 FAM=SmartFusion2
 DIE=PA4M1000_N
 PACKAGE=tq144

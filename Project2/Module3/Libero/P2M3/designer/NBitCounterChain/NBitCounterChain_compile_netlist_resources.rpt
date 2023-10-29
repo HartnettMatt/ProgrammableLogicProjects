@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
-Date: Sun Oct 29 15:21:40 2023
+Date: Sun Oct 29 14:46:50 2023
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+-------------------------------------------------------------------+
-| Topcell | NBitCounterChain                                                  |
-| Format  | Verilog                                                           |
-| Source  | C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounterChain.vm |
-+---------+-------------------------------------------------------------------+
++---------+-----------------------------------------------------------------------------------------------------------+
+| Topcell | NBitCounterChain                                                                                          |
+| Format  | Verilog                                                                                                   |
+| Source  | X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\NBitCounterChain.vm |
++---------+-----------------------------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 7255 | 12084 | 60.04      |
-| DFF                       | 5280 | 12084 | 43.69      |
+| 4LUT                      | 8597 | 12084 | 71.14      |
+| DFF                       | 6256 | 12084 | 51.77      |
 | I/O Register              | 0    | 252   | 0.00       |
 | User I/O                  | 18   | 84    | 21.43      |
 | -- Single-ended I/O       | 18   | 84    | 21.43      |
@@ -58,18 +58,18 @@ Detailed Logic Resource Usage
 +--------------------------+------+------+
 | Type                     | 4LUT | DFF  |
 +--------------------------+------+------+
-| Fabric Logic             | 7255 | 5280 |
+| Fabric Logic             | 8597 | 6256 |
 | RAM64x18 Interface Logic | 0    | 0    |
 | RAM1K18 Interface Logic  | 0    | 0    |
 | MACC Interface Logic     | 0    | 0    |
-| Total Used               | 7255 | 5280 |
+| Total Used               | 8597 | 6256 |
 +--------------------------+------+------+
 
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 16     | 330  |
-| Total  | 330  |
+| 16     | 391  |
+| Total  | 391  |
 +--------+------+
 
 I/O Function
@@ -94,11 +94,11 @@ Nets assigned to chip global resources
 +--------+---------+------------------------------------+
 | Fanout | Type    | Name                               |
 +--------+---------+------------------------------------+
-| 5280   | INT_NET | Net   : clk_c                      |
-|        |         | Driver: clk_ibuf_RNIVTI2/U0_RGB1   |
-|        |         | Source: NETLIST                    |
-| 5280   | INT_NET | Net   : reset_c                    |
+| 6256   | INT_NET | Net   : reset_c                    |
 |        |         | Driver: reset_ibuf_RNI8255/U0_RGB1 |
+|        |         | Source: NETLIST                    |
+| 6256   | INT_NET | Net   : NN_1                       |
+|        |         | Driver: clk_keep_RNIUPR4/U0_RGB1   |
 |        |         | Source: NETLIST                    |
 +--------+---------+------------------------------------+
 
@@ -112,51 +112,51 @@ High fanout nets
 +--------+---------+------------------------------------------------+
 | Fanout | Type    | Name                                           |
 +--------+---------+------------------------------------------------+
-| 16     | INT_NET | Net   : terminalCounts[203]                    |
-|        |         | Driver: genCounters[203].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[41]                     |
-|        |         | Driver: genCounters[41].counter/terminalCount  |
-| 16     | INT_NET | Net   : terminalCounts[83]                     |
-|        |         | Driver: genCounters[83].counter/terminalCount  |
-| 16     | INT_NET | Net   : terminalCounts[163]                    |
-|        |         | Driver: genCounters[163].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[327]                    |
-|        |         | Driver: genCounters[327].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[256]                    |
+|        |         | Driver: genCounters[256].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[128]                    |
+|        |         | Driver: genCounters[128].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[249]                    |
+|        |         | Driver: genCounters[249].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[13]                     |
+|        |         | Driver: genCounters[13].counter/terminalCount  |
+| 16     | INT_NET | Net   : terminalCounts[251]                    |
+|        |         | Driver: genCounters[251].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[248]                    |
+|        |         | Driver: genCounters[248].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[5]                      |
+|        |         | Driver: genCounters[5].counter/terminalCount   |
 | 16     | INT_NET | Net   : terminalCounts[246]                    |
 |        |         | Driver: genCounters[246].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[286]                    |
-|        |         | Driver: genCounters[286].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[326]                    |
-|        |         | Driver: genCounters[326].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[245]                    |
-|        |         | Driver: genCounters[245].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[285]                    |
-|        |         | Driver: genCounters[285].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[3]                      |
+|        |         | Driver: genCounters[3].counter/terminalCount   |
+| 16     | INT_NET | Net   : terminalCounts[124]                    |
+|        |         | Driver: genCounters[124].counter/terminalCount |
 +--------+---------+------------------------------------------------+
 
 High fanout nets (through buffer trees)
 +--------+---------+------------------------------------------------+
 | Fanout | Type    | Name                                           |
 +--------+---------+------------------------------------------------+
-| 16     | INT_NET | Net   : terminalCounts[203]                    |
-|        |         | Driver: genCounters[203].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[41]                     |
-|        |         | Driver: genCounters[41].counter/terminalCount  |
-| 16     | INT_NET | Net   : terminalCounts[83]                     |
-|        |         | Driver: genCounters[83].counter/terminalCount  |
-| 16     | INT_NET | Net   : terminalCounts[163]                    |
-|        |         | Driver: genCounters[163].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[327]                    |
-|        |         | Driver: genCounters[327].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[256]                    |
+|        |         | Driver: genCounters[256].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[128]                    |
+|        |         | Driver: genCounters[128].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[249]                    |
+|        |         | Driver: genCounters[249].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[13]                     |
+|        |         | Driver: genCounters[13].counter/terminalCount  |
+| 16     | INT_NET | Net   : terminalCounts[251]                    |
+|        |         | Driver: genCounters[251].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[248]                    |
+|        |         | Driver: genCounters[248].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[5]                      |
+|        |         | Driver: genCounters[5].counter/terminalCount   |
 | 16     | INT_NET | Net   : terminalCounts[246]                    |
 |        |         | Driver: genCounters[246].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[286]                    |
-|        |         | Driver: genCounters[286].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[326]                    |
-|        |         | Driver: genCounters[326].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[245]                    |
-|        |         | Driver: genCounters[245].counter/terminalCount |
-| 16     | INT_NET | Net   : terminalCounts[285]                    |
-|        |         | Driver: genCounters[285].counter/terminalCount |
+| 16     | INT_NET | Net   : terminalCounts[3]                      |
+|        |         | Driver: genCounters[3].counter/terminalCount   |
+| 16     | INT_NET | Net   : terminalCounts[124]                    |
+|        |         | Driver: genCounters[124].counter/terminalCount |
 +--------+---------+------------------------------------------------+
 

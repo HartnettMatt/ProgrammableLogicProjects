@@ -1,0 +1,161 @@
+# Reading X:/Quartus18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do P2M3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying X:/Quartus18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:51 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v 
+# -- Compiling module NBitCounterChain
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v(13): Array dimension with 'single value' (C-style) bound is only allowed in SystemVerilog (option -sv).
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v(14): Array dimension with 'single value' (C-style) bound is only allowed in SystemVerilog (option -sv).
+# End time: 17:09:51 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./P2M3_run_msim_rtl_verilog.do line 8
+# X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/..."
+do P2M3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:29 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v 
+# -- Compiling module NBitCounterChain
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v(13): Array dimension with 'single value' (C-style) bound is only allowed in SystemVerilog (option -sv).
+# ** Error: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v(14): Array dimension with 'single value' (C-style) bound is only allowed in SystemVerilog (option -sv).
+# End time: 17:12:29 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./P2M3_run_msim_rtl_verilog.do line 8
+# X:/Quartus18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/..."
+do P2M3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:47 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v 
+# -- Compiling module NBitCounterChain
+# 
+# Top level modules:
+# 	NBitCounterChain
+# End time: 17:12:47 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:12:47 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounter.v 
+# -- Compiling module NBitCounter
+# 
+# Top level modules:
+# 	NBitCounter
+# End time: 17:12:47 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.NBitCounterChain
+# vsim work.NBitCounterChain 
+# Start time: 17:13:00 on Oct 29,2023
+# Loading work.NBitCounterChain
+# Loading work.NBitCounter
+vsim work.NBitCounterChain
+# End time: 17:13:06 on Oct 29,2023, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# vsim work.NBitCounterChain 
+# Start time: 17:13:06 on Oct 29,2023
+# Loading work.NBitCounterChain
+# Loading work.NBitCounter
+do P2M3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:13:14 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounterChain.v 
+# -- Compiling module NBitCounterChain
+# 
+# Top level modules:
+# 	NBitCounterChain
+# End time: 17:13:14 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:13:14 on Oct 29,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de10lite/NBitCounter.v 
+# -- Compiling module NBitCounter
+# 
+# Top level modules:
+# 	NBitCounter
+# End time: 17:13:14 on Oct 29,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+add wave -position end  sim:/NBitCounterChain/clk
+force -freeze sim:/NBitCounterChain/clk 1 0, 0 {10000 ps} -r 20ns
+add wave -position end  sim:/NBitCounterChain/counts[1]
+add wave -position end  sim:/NBitCounterChain/counts[0]
+add wave -position end  sim:/NBitCounterChain/reset
+force -freeze sim:/NBitCounterChain/reset 1 0
+run
+force -freeze sim:/NBitCounterChain/reset 0 0
+run
+run
+run
+add wave -position end  sim:/NBitCounterChain/LEDR
+run
+restart -f
+# Loading work.NBitCounterChain
+# Loading work.NBitCounter
+force -freeze sim:/NBitCounterChain/clk 1 0, 0 {10000 ps} -r 20ns
+force -freeze sim:/NBitCounterChain/reset 1 0
+run
+force -freeze sim:/NBitCounterChain/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze {sim:/NBitCounterChain/counts[0]} 1111111111110000 0
+run
+run
+noforce {sim:/NBitCounterChain/counts[0]}
+run
+run
+run
+# End time: 17:37:38 on Oct 29,2023, Elapsed time: 0:24:32
+# Errors: 0, Warnings: 0

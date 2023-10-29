@@ -1,7 +1,7 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N: CG1349 :	| Running Verilog Compiler in System Verilog mode
-@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounter.v":21:7:21:17|Synthesizing module NBitCounter in library work.
-@N: CG364 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":22:7:22:22|Synthesizing module NBitCounterChain in library work.
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\hdl\NBitCounter.v":21:7:21:17|Synthesizing module NBitCounter in library work.
+@N: CG364 :"X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\hdl\NBitCounterChain.v":22:7:22:22|Synthesizing module NBitCounterChain in library work.
 @N|Running in 64-bit mode
 

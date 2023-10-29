@@ -1,3 +1,2 @@
-@W: CG532 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounter.v":30:3:30:9|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored. Simulation mismatch may occur
-@W: CG133 :"C:\Microsemi_Prj\Project2\P2M3\P2M3\hdl\NBitCounterChain.v":33:10:33:10|Object i is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG532 :"X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\hdl\NBitCounter.v":30:3:30:9|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored. Simulation mismatch may occur
 

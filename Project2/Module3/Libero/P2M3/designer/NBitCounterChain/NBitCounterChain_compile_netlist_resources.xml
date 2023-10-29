@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)</text>
-<text>Date: Sun Oct 29 15:21:40 2023
+<text>Date: Sun Oct 29 14:46:50 2023
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounterChain.vm</cell>
+ <cell>X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\NBitCounterChain.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>7255</cell>
+ <cell>8597</cell>
  <cell>12084</cell>
- <cell>60.04</cell>
+ <cell>71.14</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>5280</cell>
+ <cell>6256</cell>
  <cell>12084</cell>
- <cell>43.69</cell>
+ <cell>51.77</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>7255</cell>
- <cell>5280</cell>
+ <cell>8597</cell>
+ <cell>6256</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>7255</cell>
- <cell>5280</cell>
+ <cell>8597</cell>
+ <cell>6256</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -238,11 +238,11 @@
 </row>
 <row>
  <cell>16</cell>
- <cell>330</cell>
+ <cell>391</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>330</cell>
+ <cell>391</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -311,22 +311,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>5280</cell>
- <cell>INT_NET</cell>
- <cell>Net   : clk_c</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: clk_ibuf_RNIVTI2/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>5280</cell>
+ <cell>6256</cell>
  <cell>INT_NET</cell>
  <cell>Net   : reset_c</cell>
 </row>
@@ -334,6 +319,21 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: reset_ibuf_RNI8255/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>6256</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NN_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: clk_keep_RNIUPR4/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -359,52 +359,72 @@
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[203]</cell>
+ <cell>Net   : terminalCounts[256]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[203].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[41]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[41].counter/terminalCount</cell>
+ <cell>Driver: genCounters[256].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[83]</cell>
+ <cell>Net   : terminalCounts[128]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[83].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[163]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[163].counter/terminalCount</cell>
+ <cell>Driver: genCounters[128].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[327]</cell>
+ <cell>Net   : terminalCounts[249]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[327].counter/terminalCount</cell>
+ <cell>Driver: genCounters[249].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[13]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[13].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[251]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[251].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[248]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[248].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[5].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
@@ -419,42 +439,22 @@
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[286]</cell>
+ <cell>Net   : terminalCounts[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[286].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[326]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[326].counter/terminalCount</cell>
+ <cell>Driver: genCounters[3].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[245]</cell>
+ <cell>Net   : terminalCounts[124]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[245].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[285]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[285].counter/terminalCount</cell>
+ <cell>Driver: genCounters[124].counter/terminalCount</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -467,52 +467,72 @@
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[203]</cell>
+ <cell>Net   : terminalCounts[256]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[203].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[41]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[41].counter/terminalCount</cell>
+ <cell>Driver: genCounters[256].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[83]</cell>
+ <cell>Net   : terminalCounts[128]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[83].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[163]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[163].counter/terminalCount</cell>
+ <cell>Driver: genCounters[128].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[327]</cell>
+ <cell>Net   : terminalCounts[249]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[327].counter/terminalCount</cell>
+ <cell>Driver: genCounters[249].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[13]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[13].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[251]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[251].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[248]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[248].counter/terminalCount</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : terminalCounts[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: genCounters[5].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
@@ -527,42 +547,22 @@
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[286]</cell>
+ <cell>Net   : terminalCounts[3]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[286].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[326]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[326].counter/terminalCount</cell>
+ <cell>Driver: genCounters[3].counter/terminalCount</cell>
 </row>
 <row>
  <cell>16</cell>
  <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[245]</cell>
+ <cell>Net   : terminalCounts[124]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: genCounters[245].counter/terminalCount</cell>
-</row>
-<row>
- <cell>16</cell>
- <cell>INT_NET</cell>
- <cell>Net   : terminalCounts[285]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: genCounters[285].counter/terminalCount</cell>
+ <cell>Driver: genCounters[124].counter/terminalCount</cell>
 </row>
 </table>
 </doc>

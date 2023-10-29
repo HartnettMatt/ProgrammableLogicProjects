@@ -1,12 +1,12 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03M-SP1
-#--  Project file C:\Microsemi_Prj\Project2\P2M3\P2M3\synthesis\NBitCounter_syn.prj
+#--  Project file X:\Graduate\ECEN5863\ProgrammableLogicProjects\Project2\Module3\Libero\P2M3\synthesis\NBitCounter_syn.prj
 #--  Written on Sun Oct 29 14:46:24 2023
 
 
 #project files
-add_file -verilog "C:/Microsemi_Prj/Project2/P2M3/P2M3/hdl/NBitCounter.v"
-add_file -fpga_constraint "C:/Microsemi_Prj/Project2/P2M3/P2M3/designer/NBitCounter/synthesis.fdc"
+add_file -verilog "X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/hdl/NBitCounter.v"
+add_file -fpga_constraint "X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounter/synthesis.fdc"
 
 
 #implementation: "synthesis"

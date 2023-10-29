@@ -1,0 +1,25 @@
+data HELP_TYPE_DES 2data DESIGN NBitCounterChain
+data HPATH 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain'
+data CPATH 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/constraint/io'
+data CDIR 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M1000_N
+data PACKAGE tq144
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE NEW
+data AFL 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/COMPILE/NBitCounterChain.afl'
+data ADL 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/NBitCounterChain.adl'
+data LOC 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/COMPILE/NBitCounterChain.loc'
+data SEG 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/designer/NBitCounterChain/COMPILE/NBitCounterChain.seg'
+
+data IO_PDC_0 'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/constraint/io/NBitCounter.pdc'
+data TARGET_IOPDC  'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/constraint/io/user.pdc'
+data TARGET_FPPDC  'X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Libero/P2M3/constraint/fp/user.pdc'
+
