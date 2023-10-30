@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sun Oct 29 16:34:23 2023
+Fitter Status : Successful - Sun Oct 29 18:56:52 2023
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : P2M3
 Top-level Entity Name : NBitCounterChain
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 30,767 / 32,070 ( 96 % )
-Total registers : 54589
+Logic utilization (in ALMs) : 32,070 / 32,070 ( 100 % )
+Total registers : 56538
 Total pins : 18 / 457 ( 4 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 4,065,280 ( 0 % )

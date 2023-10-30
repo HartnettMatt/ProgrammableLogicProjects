@@ -4,7 +4,7 @@
 
 module NBitCounterChain #(
    parameter counterSize   = 16,
-   parameter numOfCounters = 2900
+   parameter numOfCounters = 3054
 ) (
    input  wire                   clk,
    input  wire                   reset,
