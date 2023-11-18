@@ -1,0 +1,5 @@
+module BCDToHex (Q, HEX);
+	input 		[3:0] Q;
+	output      [6:0] HEX0;
+
+endmodule

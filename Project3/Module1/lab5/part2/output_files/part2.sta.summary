@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.773
+TNS   : -102.241
+
+Type  : Slow 1100mV 85C Model Setup 'counter:U0|Rollover'
+Slack : -2.380
+TNS   : -33.270
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'counter:U0|Rollover'
+Slack : 0.660
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.563
+TNS   : -25.854
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter:U0|Rollover'
+Slack : -0.394
+TNS   : -9.751
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.737
+TNS   : -101.391
+
+Type  : Slow 1100mV 0C Model Setup 'counter:U0|Rollover'
+Slack : -2.360
+TNS   : -33.001
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'counter:U0|Rollover'
+Slack : 0.644
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.618
+TNS   : -23.893
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter:U0|Rollover'
+Slack : -0.394
+TNS   : -9.562
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.299
+TNS   : -47.051
+
+Type  : Fast 1100mV 85C Model Setup 'counter:U0|Rollover'
+Slack : -1.044
+TNS   : -14.599
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'counter:U0|Rollover'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.705
+TNS   : -18.192
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter:U0|Rollover'
+Slack : -0.049
+TNS   : -0.672
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.202
+TNS   : -40.619
+
+Type  : Fast 1100mV 0C Model Setup 'counter:U0|Rollover'
+Slack : -0.934
+TNS   : -13.054
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'counter:U0|Rollover'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.767
+TNS   : -21.570
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter:U0|Rollover'
+Slack : -0.013
+TNS   : -0.166
+
+------------------------------------------------------------

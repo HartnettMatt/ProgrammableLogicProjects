@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/simulation/modelsim
+vBCDToHex
+Z1 !s110 1700339755
+!i10b 1
+!s100 [ld<1RHUB>^nl7ImC4C1X2
+IDS<1:f<W8MY4S?0ih:Cil2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700337119
+8X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/BCDToHex.v
+FX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/BCDToHex.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1700339755.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/BCDToHex.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2|X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/BCDToHex.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2
+Z7 tCvgOpt 0
+n@b@c@d@to@hex
+vbinToBCD
+R1
+!i10b 1
+!s100 QQ`Dj3cZoAY]g9iTC4DD?2
+I_cz>fi^e5@@`?58J[?0YN2
+R2
+R0
+w1700338371
+8X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/binToBCD.v
+FX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/binToBCD.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/binToBCD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2|X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/binToBCD.v|
+!i113 1
+R5
+R6
+R7
+nbin@to@b@c@d
+vcounter
+!s110 1700339754
+!i10b 1
+!s100 9NDaA:93Sj0J`B7iCC]1^2
+IYV<0:Ei2AYNgOUB>FZ8_H3
+R2
+R0
+w1700333153
+8X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/counter.v
+FX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/counter.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1700339754.000000
+!s107 X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2|X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/counter.v|
+!i113 1
+R5
+R6
+R7
+vpart2
+R1
+!i10b 1
+!s100 0In4QSfMWIGGz`47N;SK>0
+ImbQSfFaIj3d5;GWDYZQcF2
+R2
+R0
+w1700339735
+8X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/part2.v
+FX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/part2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/part2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2|X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part2/part2.v|
+!i113 1
+R5
+R6
+R7
