@@ -86,18 +86,18 @@ SIZE="1987"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1698607966"
-SIZE="650"
+TIME="1698613943"
+SIZE="1057"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1698607966"
+TIME="1698613900"
 SIZE="233"
 ENDFILE
 VALUE "<project>\simulation\testbench_postlayout_simulation.log,log"
 STATE="utd"
-TIME="1698607966"
-SIZE="53717"
+TIME="1698618776"
+SIZE="35646"
 ENDFILE
 VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
 STATE="utd"
@@ -116,8 +116,8 @@ SIZE="1403934"
 ENDFILE
 VALUE "<project>\synthesis\CounterChain_syn.prj,prj"
 STATE="utd"
-TIME="1698607966"
-SIZE="2034"
+TIME="1698608073"
+SIZE="2114"
 ENDFILE
 VALUE "<project>\synthesis\CounterChain_vm.sdc,syn_sdc"
 STATE="utd"
@@ -136,28 +136,28 @@ SIZE="10913"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain.so,so"
 STATE="utd"
-TIME="1698607967"
-SIZE="242"
+TIME="1698612403"
+SIZE="282"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain.vm,syn_vm"
 STATE="utd"
-TIME="1698607967"
-SIZE="2827139"
+TIME="1698612402"
+SIZE="3334661"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain_syn.prj,prj"
 STATE="utd"
-TIME="1698607967"
-SIZE="2352"
+TIME="1698612404"
+SIZE="2512"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounterChain_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1698607967"
-SIZE="906"
+TIME="1698612402"
+SIZE="899"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounter_syn.prj,prj"
 STATE="utd"
-TIME="1698607967"
-SIZE="2252"
+TIME="1698608074"
+SIZE="2372"
 ENDFILE
 VALUE "<project>\synthesis\NBitCounter_vm.sdc,syn_sdc"
 STATE="utd"
@@ -270,8 +270,8 @@ NAME="Synplify Pro from Synopsys"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro from Synopsys"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin\synplify_pro.exe"
-PARAM=" -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -279,7 +279,7 @@ NAME="ModelSim"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="D:\Microsemi\Libero_SoC_v12.6\ModelSim\win32acoem\modelsim.exe"
-PARAM=" -l testbench_postlayout_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -323,10 +323,10 @@ ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;Place and Route:NBitCounterChain_layout_log.log
 StartPage;StartPage;0
-HDL;hdl\NBitCounter.v;0
 Constraint Manager;Constraint Manager;0
-HDL;hdl\NBitCounterChain.v;0
 HDL;constraint\user.sdc;0
+HDL;hdl\NBitCounterChain.v;0
+HDL;hdl\NBitCounter.v;0
 ACTIVEVIEW;hdl\NBitCounterChain.v
 ENDLIST
 LIST ModuleSubBlockList

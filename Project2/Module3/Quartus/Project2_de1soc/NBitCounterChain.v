@@ -10,8 +10,8 @@ module NBitCounterChain #(
    input  wire                   reset,
    output wire [counterSize-1:0] outCount
 );
-   wire [counterSize-1:0] counts[numOfCounters];
-   wire terminalCounts[numOfCounters];
+   wire [counterSize-1:0] counts[numOfCounters:0];
+   wire terminalCounts[numOfCounters:0];
 
    genvar i;
    generate

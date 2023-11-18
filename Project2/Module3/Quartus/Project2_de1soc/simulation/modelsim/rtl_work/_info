@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/simulation/modelsim
+vNBitCounter
+Z1 !s110 1698722420
+!i10b 1
+!s100 cBm0cQoe[f2>:agNbWSF33
+I]JRVP2A[BYXETI?fUR>^J0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1698619431
+8X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounter.v
+FX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounter.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1698722420.000000
+Z5 !s107 X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounter.v|X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounterChain.v|
+Z6 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc|X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounterChain.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc
+Z9 tCvgOpt 0
+n@n@bit@counter
+vNBitCounterChain
+R1
+!i10b 1
+!s100 lSf1^<0>V3XhnNH>7D?^>0
+I6Gi[AB^Hik3dWb?T[DPgg0
+R2
+R0
+w1698721827
+8X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounterChain.v
+FX:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounterChain.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+R9
+n@n@bit@counter@chain

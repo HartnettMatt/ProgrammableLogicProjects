@@ -1,0 +1,47 @@
+# Reading X:/Quartus18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do P2M3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying X:/Quartus18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounterChain.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:20:20 on Oct 30,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project2/Module3/Quartus/Project2_de1soc/NBitCounterChain.v 
+# -- Compiling module NBitCounter
+# -- Compiling module NBitCounterChain
+# 
+# Top level modules:
+# 	NBitCounterChain
+# End time: 21:20:20 on Oct 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.NBitCounterChain
+# vsim work.NBitCounterChain 
+# Start time: 21:20:29 on Oct 30,2023
+# Loading work.NBitCounterChain
+# Loading work.NBitCounter
+add wave -position end  sim:/NBitCounterChain/clk
+add wave -position end  sim:/NBitCounterChain/reset
+add wave -position end  sim:/NBitCounterChain/counts
+force -freeze sim:/NBitCounterChain/clk 1 0, 0 {5 ps} -r 10
+force -freeze sim:/NBitCounterChain/reset 1 0
+run
+force -freeze sim:/NBitCounterChain/reset 0 0
+run
+run
+run
+add wave -position end  sim:/NBitCounterChain/counts[1]
+add wave -position end  sim:/NBitCounterChain/counts[0]
+run
+run
+run
+run
+# End time: 21:28:40 on Oct 30,2023, Elapsed time: 0:08:11
+# Errors: 0, Warnings: 0
