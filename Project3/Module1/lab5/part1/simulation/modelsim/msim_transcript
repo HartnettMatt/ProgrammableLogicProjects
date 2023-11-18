@@ -1,0 +1,79 @@
+# Reading X:/Quartus18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do part1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying X:/Quartus18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1 {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1/counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:44 on Nov 18,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 11:51:44 on Nov 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1 {X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1/part1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:51:44 on Nov 18,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1" X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1/part1.v 
+# -- Compiling module part1
+# 
+# Top level modules:
+# 	part1
+# End time: 11:51:44 on Nov 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.part1
+# vsim work.part1 
+# Start time: 11:51:52 on Nov 18,2023
+# Loading work.part1
+# Loading work.counter
+add wave -position end  sim:/part1/KEY
+add wave -position end  sim:/part1/LEDR
+add wave -position end  sim:/part1/clk
+add wave -position end  sim:/part1/rst_n
+add wave -position end  sim:/part1/q
+add wave -position end  sim:/part1/rollover
+force -freeze {sim:/part1/KEY[0]} 0 0
+force -freeze {sim:/part1/KEY[1]} 1 0, 0 {50 ps} -r 100
+force -freeze {sim:/part1/KEY[2]} 0 0
+force -freeze {sim:/part1/KEY[3]} 0 0
+run
+run
+force -freeze {sim:/part1/KEY[0]} 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze {sim:/part1/KEY[0]} 0 0
+run
+run
+# End time: 11:54:30 on Nov 18,2023, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 0

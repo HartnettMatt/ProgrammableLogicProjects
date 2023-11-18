@@ -1,0 +1,47 @@
+|part1
+KEY[0] => rst_n.IN1
+KEY[1] => clk.IN1
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+LEDR[0] <= counter:U0.Q
+LEDR[1] <= counter:U0.Q
+LEDR[2] <= counter:U0.Q
+LEDR[3] <= counter:U0.Q
+LEDR[4] <= counter:U0.Q
+LEDR[5] <= counter:U0.Q
+LEDR[6] <= counter:U0.Q
+LEDR[7] <= counter:U0.Q
+LEDR[8] <= <GND>
+LEDR[9] <= counter:U0.Rollover
+
+
+|part1|counter:U0
+Clock => Q[0]~reg0.CLK
+Clock => Q[1]~reg0.CLK
+Clock => Q[2]~reg0.CLK
+Clock => Q[3]~reg0.CLK
+Clock => Q[4]~reg0.CLK
+Clock => Q[5]~reg0.CLK
+Clock => Q[6]~reg0.CLK
+Clock => Q[7]~reg0.CLK
+Clock => Rollover~reg0.CLK
+Reset_n => Q[0]~reg0.ACLR
+Reset_n => Q[1]~reg0.ACLR
+Reset_n => Q[2]~reg0.ACLR
+Reset_n => Q[3]~reg0.ACLR
+Reset_n => Q[4]~reg0.ACLR
+Reset_n => Q[5]~reg0.ACLR
+Reset_n => Q[6]~reg0.ACLR
+Reset_n => Q[7]~reg0.ACLR
+Reset_n => Rollover~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Rollover <= Rollover~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

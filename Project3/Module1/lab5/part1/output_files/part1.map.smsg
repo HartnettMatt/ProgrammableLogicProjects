@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at counter.v(15): always construct contains both blocking and non-blocking assignments File: X:/Graduate/ECEN5863/ProgrammableLogicProjects/Project3/Module1/lab5/part1/counter.v Line: 15
