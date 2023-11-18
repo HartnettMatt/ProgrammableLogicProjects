@@ -25,9 +25,9 @@ module counter (Clock, Reset_n, Q, Rollover);
 				Q <= 0;
 			// Rollover (has to be k-2 due to non-blocking assignments):
 			if (Q == k-2)
-				Rollover = 1'b1;
+				Rollover <= 1'b1;
 			else
-				Rollover = 1'b0;
+				Rollover <= 1'b0;
 		end
 	end
 endmodule
