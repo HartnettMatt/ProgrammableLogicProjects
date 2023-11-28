@@ -1,0 +1,12 @@
+module binToBCD_minute (BIN, BCD0, BCD1, KEY, SW);
+
+	input 		KEY;
+	input 		[7:0] SW;
+	input 		[9:0] BIN;
+	output      [3:0] BCD0;
+	output      [3:0] BCD1;
+	
+	assign BCD0 = BIN % 10;
+	assign BCD1 = (BIN % 100)/10;
+	
+endmodule
