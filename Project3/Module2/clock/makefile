@@ -19,26 +19,26 @@ RM		:= rm -f
 USERCCFLAGS	:= -g -O1
 ARCHASFLAGS	:= -mfloat-abi=soft -march=armv7-a -mcpu=cortex-a9 --gstabs -I "$$GNU_ARM_TOOL_ROOTDIR/arm-altera-eabi/include/"
 ARCHCCFLAGS	:= -mfloat-abi=soft -march=armv7-a -mtune=cortex-a9 -mcpu=cortex-a9
-ARCHLDFLAGS	:= --defsym arm_program_mem=0x0 --defsym arm_available_mem_size=0x3ffffff8 --defsym __cs3_stack=0x3ffffff8
-ARCHLDSCRIPT	:= -T"X:/Quartus18.1/University_Program/Monitor_Program/build/altera-socfpga-hosted.ld"
+ARCHLDFLAGS	:= --defsym arm_program_mem=0x40 --defsym arm_available_mem_size=0x3fffffb8 --defsym __cs3_stack=0x3ffffff8 --section-start .vectors=0x0
+ARCHLDSCRIPT	:= -T"X:/Quartus18.1/University_Program/Monitor_Program/build/altera-socfpga-hosted-with-vectors.ld"
 ASFLAGS		:= $(ARCHASFLAGS)
 CCFLAGS		:= -Wall -c $(USERCCFLAGS) $(ARCHCCFLAGS)
 LDFLAGS		:= $(patsubst %, -Wl$(DEFINE_COMMA)%, $(ARCHLDFLAGS)) $(ARCHLDSCRIPT)
 OCFLAGS		:= -O srec
 
 # Files
-HDRS		:=
-SRCS		:= part2.c
+HDRS		:= defines.h interrupt_ID.h address_map_arm.h
+SRCS		:= interrupt_example.c exceptions.c HPS_timer_ISR.c interval_timer_ISR.c pushbutton_ISR.c
 OBJS		:= $(patsubst %, %.o, $(SRCS))
 
 # Targets
-COMPILE: part2.srec
+COMPILE: interrupt_example.srec
 
-part2.srec: part2.axf
+interrupt_example.srec: interrupt_example.axf
 	$(RM) $@
 	$(OC) $(OCFLAGS) $< $@
 
-part2.axf: $(OBJS)
+interrupt_example.axf: $(OBJS)
 	$(RM) $@
 	$(CC) $(LDFLAGS) $(OBJS) -o $@
 
@@ -51,5 +51,5 @@ part2.axf: $(OBJS)
 	$(AS) $(ASFLAGS) $< -o $@
 
 CLEAN: 
-	$(RM) part2.srec part2.axf $(OBJS)
+	$(RM) interrupt_example.srec interrupt_example.axf $(OBJS)
 
