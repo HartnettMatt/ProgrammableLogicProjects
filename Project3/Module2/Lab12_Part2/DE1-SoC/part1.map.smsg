@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at part1.v(31): always construct contains both blocking and non-blocking assignments File: C:/Users/epper/OneDrive/Desktop/starterkit/DE1-SoC/part1.v Line: 31
