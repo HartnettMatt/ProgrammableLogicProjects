@@ -503,11 +503,11 @@ void HPS_timer_ISR()
  438:	e12fff1e 	bx	lr
 
 0000043c <HEX_DISP>:
-    }
 
     return;
 }
 
+// This function takes integers ranging from 0-15 and displays them on the 6 seven seg displays
 void HEX_DISP(int c0, int c1, int c2, int c3, int c4, int c5) {
  43c:	e92d01f0 	push	{r4, r5, r6, r7, r8}
  440:	e24dd014 	sub	sp, sp, #20
@@ -515,9 +515,9 @@ void HEX_DISP(int c0, int c1, int c2, int c3, int c4, int c5) {
  448:	e1a08001 	mov	r8, r1
  44c:	e1a06002 	mov	r6, r2
  450:	e1a05003 	mov	r5, r3
-  volatile int * HEX3_HEX0_ptr = (int *)HEX3_HEX0_BASE;
-  volatile int * HEX5_HEX4_ptr = (int *)HEX5_HEX4_BASE;
-  unsigned char seven_seg_decode_table[] = {
+  volatile int * HEX3_HEX0_ptr = (int *)HEX3_HEX0_BASE; // Base address for HEX[3:0]
+  volatile int * HEX5_HEX4_ptr = (int *)HEX5_HEX4_BASE; // Base address for HEX[5:4]
+  unsigned char seven_seg_decode_table[] = { // This table converts integer values into the hex code that displays that number on the seven seg display
  454:	e3004afc 	movw	r4, #2812	; 0xafc
  458:	e3404000 	movt	r4, #0
  45c:	e1a0c00d 	mov	r12, sp
@@ -528,7 +528,7 @@ void HEX_DISP(int c0, int c1, int c2, int c3, int c4, int c5) {
  470:	e8ac000f 	stmia	r12!, {r0, r1, r2, r3}
       0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07,
       0x7F, 0x67, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
-  unsigned int hex3_0_segs =
+  unsigned int hex3_0_segs = // This converts the appropriate integers into the correct hex values, which then get placed together to create the data to write to the MMIO
       (seven_seg_decode_table[c3] << 24)
         | (seven_seg_decode_table[c2] << 16)
         | (seven_seg_decode_table[c1] << 8)
@@ -537,10 +537,10 @@ void HEX_DISP(int c0, int c1, int c2, int c3, int c4, int c5) {
         | seven_seg_decode_table[c0];
  47c:	e08c7007 	add	r7, r12, r7
  480:	e5573010 	ldrb	r3, [r7, #-16]
-  unsigned char seven_seg_decode_table[] = {
+  unsigned char seven_seg_decode_table[] = { // This table converts integer values into the hex code that displays that number on the seven seg display
       0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07,
       0x7F, 0x67, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
-  unsigned int hex3_0_segs =
+  unsigned int hex3_0_segs = // This converts the appropriate integers into the correct hex values, which then get placed together to create the data to write to the MMIO
       (seven_seg_decode_table[c3] << 24)
         | (seven_seg_decode_table[c2] << 16)
  484:	e1831401 	orr	r1, r3, r1, lsl #8
@@ -548,11 +548,11 @@ void HEX_DISP(int c0, int c1, int c2, int c3, int c4, int c5) {
  48c:	e5563010 	ldrb	r3, [r6, #-16]
         | (seven_seg_decode_table[c1] << 8)
  490:	e1811803 	orr	r1, r1, r3, lsl #16
-  volatile int * HEX5_HEX4_ptr = (int *)HEX5_HEX4_BASE;
-  unsigned char seven_seg_decode_table[] = {
+  volatile int * HEX5_HEX4_ptr = (int *)HEX5_HEX4_BASE; // Base address for HEX[5:4]
+  unsigned char seven_seg_decode_table[] = { // This table converts integer values into the hex code that displays that number on the seven seg display
       0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07,
       0x7F, 0x67, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
-  unsigned int hex3_0_segs =
+  unsigned int hex3_0_segs = // This converts the appropriate integers into the correct hex values, which then get placed together to create the data to write to the MMIO
       (seven_seg_decode_table[c3] << 24)
  494:	e08c5005 	add	r5, r12, r5
  498:	e5553010 	ldrb	r3, [r5, #-16]
@@ -560,7 +560,7 @@ void HEX_DISP(int c0, int c1, int c2, int c3, int c4, int c5) {
         | (seven_seg_decode_table[c1] << 8)
         | seven_seg_decode_table[c0];
  49c:	e1811c03 	orr	r1, r1, r3, lsl #24
-  unsigned int hex5_4_segs = (seven_seg_decode_table[c5] << 8) | seven_seg_decode_table[c4];
+  unsigned int hex5_4_segs = (seven_seg_decode_table[c5] << 8) | seven_seg_decode_table[c4]; // This does the same, but for HEX5 and HEX4
  4a0:	e59d302c 	ldr	r3, [sp, #44]	; 0x2c
  4a4:	e08c3003 	add	r3, r12, r3
  4a8:	e5532010 	ldrb	r2, [r3, #-16]
@@ -568,11 +568,11 @@ void HEX_DISP(int c0, int c1, int c2, int c3, int c4, int c5) {
  4b0:	e08c3003 	add	r3, r12, r3
  4b4:	e5533010 	ldrb	r3, [r3, #-16]
  4b8:	e1832402 	orr	r2, r3, r2, lsl #8
-  *(HEX3_HEX0_ptr) = hex3_0_segs;
+  *(HEX3_HEX0_ptr) = hex3_0_segs; // Write the hex values into the MMIO of the seven segment displays
  4bc:	e3a03000 	mov	r3, #0
  4c0:	e34f3f20 	movt	r3, #65312	; 0xff20
  4c4:	e5831020 	str	r1, [r3, #32]
-  *(HEX5_HEX4_ptr) = hex5_4_segs;
+  *(HEX5_HEX4_ptr) = hex5_4_segs; // Write the hex values into the MMIO of the seven segment displays
  4c8:	e5832030 	str	r2, [r3, #48]	; 0x30
 }
  4cc:	e28dd014 	add	sp, sp, #20
@@ -596,7 +596,7 @@ void interval_timer_ISR()
  4e8:	e3a02000 	mov	r2, #0
  4ec:	e5832000 	str	r2, [r3]
 
-    HEX_DISP(hex0, hex1, hex2, hex3, hex4, hex5);
+    HEX_DISP(hex0, hex1, hex2, hex3, hex4, hex5); // Display the timer values on the seven segment displays
  4f0:	e3003fe4 	movw	r3, #4068	; 0xfe4
  4f4:	e3403000 	movt	r3, #0
  4f8:	e5930000 	ldr	r0, [r3]
@@ -618,13 +618,13 @@ void interval_timer_ISR()
  538:	e58de000 	str	lr, [sp]
  53c:	e58dc004 	str	r12, [sp, #4]
  540:	ebffffbd 	bl	43c <HEX_DISP>
-    if(key_dir == 0){
+    if(key_dir == 0){ // Pause the timer if the button is pressed
  544:	e3003fe8 	movw	r3, #4072	; 0xfe8
  548:	e3403000 	movt	r3, #0
  54c:	e5933000 	ldr	r3, [r3]
  550:	e3530000 	cmp	r3, #0
  554:	1a000054 	bne	6ac <interval_timer_ISR+0x1d4>
-      if(hex0 < 9){
+      if(hex0 < 9){ // This is a repeating set of nested if statements that handles incrementing and rolling over
  558:	e3003fe4 	movw	r3, #4068	; 0xfe4
  55c:	e3403000 	movt	r3, #0
  560:	e5933000 	ldr	r3, [r3]
