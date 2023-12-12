@@ -1,0 +1,17 @@
+	component SnakeGame is
+		port (
+			clk_clk                                 : in    std_logic                     := 'X';             -- clk
+			reset_reset_n                           : in    std_logic                     := 'X';             -- reset_n
+			chu_avalon_vga_0_vga_conduit_vsync      : out   std_logic;                                        -- vsync
+			chu_avalon_vga_0_vga_conduit_hsync      : out   std_logic;                                        -- hsync
+			chu_avalon_vga_0_vga_conduit_rgb        : out   std_logic_vector(11 downto 0);                    -- rgb
+			chu_avalon_vga_0_sram_conduit_sram_addr : out   std_logic_vector(17 downto 0);                    -- sram_addr
+			chu_avalon_vga_0_sram_conduit_sram_ce_n : out   std_logic;                                        -- sram_ce_n
+			chu_avalon_vga_0_sram_conduit_sram_dq   : inout std_logic_vector(15 downto 0) := (others => 'X'); -- sram_dq
+			chu_avalon_vga_0_sram_conduit_sram_lb_n : out   std_logic;                                        -- sram_lb_n
+			chu_avalon_vga_0_sram_conduit_sram_oe_n : out   std_logic;                                        -- sram_oe_n
+			chu_avalon_vga_0_sram_conduit_sram_ub_n : out   std_logic;                                        -- sram_ub_n
+			chu_avalon_vga_0_sram_conduit_sram_we_n : out   std_logic                                         -- sram_we_n
+		);
+	end component SnakeGame;
+
